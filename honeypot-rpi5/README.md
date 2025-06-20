@@ -20,17 +20,14 @@ Do not use honeypots in environments where they could be mistaken for real infra
 A honeypot is a decoy system designed to lure cyber attackers. It simulates a vulnerable target, capturing and logging interactions to help analysts understand attacker behaviors, techniques, and motives.
 
 ---
+
 ## 🎯 Why Are Honeypots Important?
 
 Honeypots are a proactive security tool that serve as a trap for attackers, offering insights that traditional detection systems may miss. They:
-
-    Detect early threats before they impact production systems
-
-    Log attacker behavior and tools in a controlled environment
-
-    Support red team/blue team exercises
-
-    Improve incident response readiness
+- Detect early threats before they impact production systems
+- Log attacker behavior and tools in a controlled environment
+- Support red team/blue team exercises
+- Improve incident response readiness
 
 ---
 
