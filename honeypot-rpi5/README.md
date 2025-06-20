@@ -5,7 +5,8 @@ This project sets up Cowrie, an SSH honeypot, on a Linux host and integrates it 
 ---
 
 ## ⚠️ Disclaimer
-This honeypot is for educational and monitoring purposes only. It should always be deployed in an isolated, non-production environment. Do not use honeypots in environments where they could be mistaken for real infrastructure, and ensure they comply with all local laws and regulations.
+This honeypot is for educational and monitoring purposes only. It should always be deployed in an isolated, non-production environment. 
+Do not use honeypots in environments where they could be mistaken for real infrastructure, and ensure they comply with all local laws and regulations.
 
 ## 🎯 Objective
 - Deploy a realistic SSH honeypot in a home network
