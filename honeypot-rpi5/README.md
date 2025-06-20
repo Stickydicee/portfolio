@@ -1,8 +1,11 @@
-# 🪤 Honeypot on Raspberry Pi 5
+# 🪤 Honeypot on Raspberry Pi 5 with Slack Alerts
 
-This project documents the setup and results of running a Cowrie honeypot on a Raspberry Pi 5. The goal is to simulate an SSH service and capture unauthorized login attempts for analysis.
+This project sets up Cowrie, an SSH honeypot, on a Linux host and integrates it with Slack for real-time alerts on malicious activity.
 
 ---
+
+## ⚠️ Disclaimer
+This honeypot is for educational and monitoring purposes only. It should always be deployed in an isolated, non-production environment. Do not use honeypots in environments where they could be mistaken for real infrastructure, and ensure they comply with all local laws and regulations.
 
 ## 🎯 Objective
 - Deploy a realistic SSH honeypot in a home network
