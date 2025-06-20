@@ -8,12 +8,6 @@ This project sets up [Cowrie](https://github.com/cowrie/cowrie), an SSH honeypot
 This honeypot is for educational and monitoring purposes only. It should always be deployed in an isolated, non-production environment. 
 Do not use honeypots in environments where they could be mistaken for real infrastructure and ensure they comply with all local laws and regulations.
 
-## 🎯 Objective
-- Deploy a realistic SSH honeypot in a home network
-- Monitor brute-force attacks and log malicious behavior
-- Practice log analysis and basic alerting
-- Explore future integration with Slack notifications
-
 ---
 
 ## 🔍 What Is a Honeypot?
@@ -31,17 +25,23 @@ Honeypots are a proactive security tool that serve as a trap for attackers, offe
 
 ---
 
-## 📈 Planned Next Steps
-- Enable Slack integration via webhook on new login attempts
-- Push selected logs to centralized dashboard (Grafana or ELK)
-- Develop simple Python script for log parsing & alerting
+## 🛠 Project Features
+- ✅ Cowrie SSH honeypot listening on port 22
+- ✅ Slack integration to send real-time alerts
+- ✅ Alerts on login attempts, command execution, downloads, session start/end
+- ✅ Extendable Python script for integration with Discord, email, or a SIEM
 
 ---
 
-## 🧠 Lessons Learned
-- Importance of network isolation when deploying attack surfaces
-- Common brute-force patterns and usernames (root, admin, test)
-- Cowrie’s logging structure and how to extract relevant data
+## 👨‍💻 For Cybersecurity Analysts
+
+This project provides practical hands-on experience for:
+- Blue team monitoring
+- Threat intelligence gathering
+- Detection engineering
+- Log analysis
+- Developing Python automation for SOC workflows
+- Use it to simulate attacks, gather attacker TTPs, and improve detection rules.
 
 ---
 
