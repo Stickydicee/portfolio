@@ -1,6 +1,6 @@
 # 🪤 Honeypot on Raspberry Pi 5 with Slack Alerts
 
-This project sets up Cowrie, an SSH honeypot, on a Linux host and integrates it with Slack for real-time alerts on malicious activity.
+This project sets up [Cowrie](https://github.com/cowrie/cowrie), an SSH honeypot, on a Linux host and integrates it with Slack for real-time alerts on malicious activity.
 
 ---
 
@@ -16,19 +16,21 @@ Do not use honeypots in environments where they could be mistaken for real infra
 
 ---
 
-## 🛠️ Setup Overview
-- **Device:** Raspberry Pi 5
-- **OS:** Raspberry Pi OS Lite (headless)
-- **Tool:** [Cowrie](https://github.com/cowrie/cowrie)
-- **Network:** Static IP via DHCP reservation, port 2222 forwarded from KPN router to the Pi (Cowrie listens on 2222 by default)
-- **Security:** Isolated VLAN segment (optional), logging to local storage
+## 🔍 What Is a Honeypot?
+A honeypot is a decoy system designed to lure cyber attackers. It simulates a vulnerable target, capturing and logging interactions to help analysts understand attacker behaviors, techniques, and motives.
 
 ---
+## 🎯 Why Are Honeypots Important?
 
-## 📂 Key Files
-- `cowrie.cfg`: Honeypot configuration file
-- `cowrie.log`: Log file capturing attack attempts
-- `install-notes.md`: Manual installation steps (optional)
+Honeypots are a proactive security tool that serve as a trap for attackers, offering insights that traditional detection systems may miss. They:
+
+    Detect early threats before they impact production systems
+
+    Log attacker behavior and tools in a controlled environment
+
+    Support red team/blue team exercises
+
+    Improve incident response readiness
 
 ---
 
