@@ -1,131 +1,133 @@
+🧰 Cowrie Honeypot Installation Guide (Raspberry Pi 5 + Kali Linux)
+===================================================================
+
+This guide walks you through installing Cowrie on a Raspberry Pi 5 running Kali Linux.
+You’ll set up a dedicated user, create a virtual environment, adjust your SSH settings, and start the honeypot.
+
 Step 1: Install system dependencies
 ***********************************
 
-First we install system-wide support for Python virtual environments and other dependencies.
-Actual Python packages are installed later.
+First, install all required base packages.
+Python packages will be installed later.
 
-On Debian based systems (last verified on Debian Bookworm)::
+On Debian-based systems::
 
     $ sudo apt-get install git python3-pip python3-venv libssl-dev libffi-dev build-essential libpython3-dev python3-minimal authbind
 
 Step 2: Create a user account
 *****************************
 
-It's strongly recommended to run with a dedicated non-root user id::
+It’s recommended to run Cowrie under a non-root user::
 
     $ sudo adduser --disabled-password cowrie
-    Adding user 'cowrie' ...
-    Adding new group 'cowrie' (1002) ...
-    Adding new user 'cowrie' (1002) with group 'cowrie' ...
-    Changing the user information for cowrie
-    Enter the new value, or press ENTER for the default
-    Full Name []:
-    Room Number []:
-    Work Phone []:
-    Home Phone []:
-    Other []:
-    Is the information correct? [Y/n]
+
+Then switch to that user::
 
     $ sudo su - cowrie
 
-Step 3: Checkout the code
-*************************
+Step 3: Clone the repository
+****************************
 
-Check out the code::
+Get the Cowrie code from GitHub::
 
     $ git clone http://github.com/cowrie/cowrie
-    Cloning into 'cowrie'...
-    remote: Counting objects: 2965, done.
-    remote: Compressing objects: 100% (1025/1025), done.
-    remote: Total 2965 (delta 1908), reused 2962 (delta 1905), pack-reused 0
-    Receiving objects: 100% (2965/2965), 3.41 MiB | 2.57 MiB/s, done.
-    Resolving deltas: 100% (1908/1908), done.
-    Checking connectivity... done.
-
     $ cd cowrie
 
-Step 4: Setup Virtual Environment
-*********************************
+Step 4: Set up the virtual environment
+**************************************
 
-Next you need to create your virtual environment::
+Create the virtual environment and install Python packages::
 
-    $ pwd
-    /home/cowrie/cowrie
     $ python3 -m venv cowrie-env
-    New python executable in ./cowrie/cowrie-env/bin/python
-    Installing setuptools, pip, wheel...done.
-
-Activate the virtual environment and install packages::
-
     $ source cowrie-env/bin/activate
     (cowrie-env) $ python -m pip install --upgrade pip
     (cowrie-env) $ python -m pip install --upgrade -r requirements.txt
 
-Step 5: Install configuration file
-**********************************
+Step 5: Set up the configuration
+********************************
 
-The configuration for Cowrie is stored in cowrie.cfg.dist and
-cowrie.cfg (Located in cowrie/etc). Both files are read on startup, where entries from
-cowrie.cfg take precedence. The .dist file can be overwritten by
-upgrades, cowrie.cfg will not be touched. To run with a standard
-configuration, there is no need to change anything. To enable telnet,
-for example, create cowrie.cfg and input only the following::
+Cowrie uses two config files: `cowrie.cfg.dist` (defaults) and `cowrie.cfg` (your custom settings).
+
+To create your editable config::
+
+    $ cp etc/cowrie.cfg.dist etc/cowrie.cfg
+
+**Only edit `cowrie.cfg`.**  
+Do not make changes to `cowrie.cfg.dist` — it will be overwritten on updates.
+
+You can enable individual services like telnet by adding this to `cowrie.cfg`::
 
     [telnet]
     enabled = true
 
-Step 6: Starting Cowrie
-***********************
+Step 6: Start Cowrie and change system SSH port
+***********************************************
 
-Start Cowrie with the cowrie command. You can add the cowrie/bin
-directory to your path if desired. An existing virtual environment
-is preserved if activated, otherwise Cowrie will attempt to load
-the environment called "cowrie-env"::
-
+Start Cowrie with::
 
     $ bin/cowrie start
-    Activating virtualenv "cowrie-env"
-    Starting cowrie with extra arguments [] ...
+
+If you want Cowrie to listen on port 22, first change the system SSH daemon to a different port.
+
+Edit the SSH configuration::
+
+    $ sudo nano /etc/ssh/sshd_config
+
+Find this line::
+
+    Port 22
+
+Change it to::
+
+    Port 2201
+
+Then restart SSH::
+
+    $ sudo systemctl restart ssh
 
 Step 7: Listening on port 22 (OPTIONAL)
 ***************************************
 
-There are three methods to make Cowrie accessible on the default SSH port (22): `iptables`, `authbind` and `setcap`.
+There are three ways to make Cowrie listen on port 22: `iptables`, `authbind`, or `setcap`.
 
 Iptables
 ========
 
-Port redirection commands are system-wide and need to be executed as root.
-A firewall redirect can make your existing SSH server unreachable, remember to move the existing
-server to a different port number first.
-
-The following firewall rule will forward incoming traffic on port 22 to port 2222 on Linux::
+Redirect incoming traffic on port 22 to Cowrie’s default port 2222::
 
     $ sudo iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-port 2222
 
-Or for telnet::
+For telnet::
 
     $ sudo iptables -t nat -A PREROUTING -p tcp --dport 23 -j REDIRECT --to-port 2223
 
-Note that you should test this rule only from another host; it doesn't apply to loopback connections.
+Test these only from another machine — they don’t affect localhost.
 
-On MacOS run::
+MacOS::
 
     $ echo "rdr pass inet proto tcp from any to any port 22 -> 127.0.0.1 port 2222" | sudo pfctl -ef -
 
 Authbind
 ========
 
-Alternatively you can run authbind to listen as non-root on port 22 directly::
+To allow a non-root user to bind to port 22 using authbind::
 
     $ sudo apt-get install authbind
     $ sudo touch /etc/authbind/byport/22
     $ sudo chown cowrie:cowrie /etc/authbind/byport/22
     $ sudo chmod 770 /etc/authbind/byport/22
 
-Edit bin/cowrie and modify the AUTHBIND_ENABLED setting
+Also update `bin/cowrie` to enable authbind support (set `AUTHBIND_ENABLED` to `yes`).
 
-Change the listening port to 22 in cowrie.cfg::
+Then in `cowrie.cfg` change the port::
 
     [ssh]
     listen_endpoints = tcp:22:interface=0.0.0.0
+
+Step 8: Stopping and restarting Cowrie
+**************************************
+
+To restart Cowrie after making changes::
+
+    $ bin/cowrie stop
+    $ bin/cowrie start
