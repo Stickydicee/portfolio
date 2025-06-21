@@ -85,30 +85,8 @@ Then restart SSH::
 
     $ sudo systemctl restart ssh
 
-Step 7: Listening on port 22 (OPTIONAL)
+Step 7: Listening on port 22 with Authbind
 ***************************************
-
-There are three ways to make Cowrie listen on port 22: `iptables`, `authbind`, or `setcap`.
-
-Iptables
-========
-
-Redirect incoming traffic on port 22 to Cowrie’s default port 2222::
-
-    $ sudo iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-port 2222
-
-For telnet::
-
-    $ sudo iptables -t nat -A PREROUTING -p tcp --dport 23 -j REDIRECT --to-port 2223
-
-Test these only from another machine — they don’t affect localhost.
-
-MacOS::
-
-    $ echo "rdr pass inet proto tcp from any to any port 22 -> 127.0.0.1 port 2222" | sudo pfctl -ef -
-
-Authbind
-========
 
 To allow a non-root user to bind to port 22 using authbind::
 
