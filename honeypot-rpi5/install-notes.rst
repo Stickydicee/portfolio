@@ -1,23 +1,3 @@
-Installing Cowrie in seven steps
-################################
-
-This guide describes how to install Cowrie in ``shell`` mode. For ``proxy`` mode
-read `PROXY.rst`.
-
-* :ref:`Step 1: Install system dependencies<Step 1: Install system dependencies>`
-* :ref:`Step 2: Create a user account<Step 2: Create a user account>`
-* :ref:`Step 3: Checkout the code<Step 3: Checkout the code>`
-* :ref:`Step 4: Setup Virtual Environment<Step 4: Setup Virtual Environment>`
-* :ref:`Step 5: Install configuration file<Step 5: Install configuration file>`
-* :ref:`Step 6: Starting Cowrie<Step 6: Starting Cowrie>`
-* :ref:`Step 7: Listening on port 22 (OPTIONAL)<Step 7: Listening on port 22 (OPTIONAL)>`
-* :ref:`Installing Backend Pool dependencies (OPTIONAL)<Installing Backend Pool dependencies (OPTIONAL)>`
-* :ref:`Running using supervisord (OPTIONAL)<Running using supervisord (OPTIONAL)>`
-* :ref:`Configure Additional Output Plugins (OPTIONAL)<Configure Additional Output Plugins (OPTIONAL)>`
-* :ref:`Troubleshooting<Troubleshooting>`
-* :ref:`Updating Cowrie<Updating Cowrie>`
-* :ref:`Modifying Cowrie<Modifying Cowrie>`
-
 Step 1: Install system dependencies
 ***********************************
 
