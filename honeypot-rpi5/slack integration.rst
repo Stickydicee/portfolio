@@ -88,3 +88,95 @@ To return to the session later::
 
     $ tmux attach -t slackmonitor
 
+Step 7: Run Slack Alerts Automatically on Boot
+===============================================
+
+To ensure the Slack alert script runs automatically after reboot, we configure it as a systemd service. Additionally, Cowrie itself should also start automatically.
+
+Step 7.1: Create a systemd service for Cowrie
+******************
+
+Create a new service file:
+
+.. code-block:: bash
+
+    sudo nano /etc/systemd/system/cowrie.service
+
+Paste the following content:
+
+.. code-block:: ini
+
+    [Unit]
+    Description=Cowrie SSH/Telnet Honeypot
+    After=network.target
+
+    [Service]
+    User=cowrie
+    WorkingDirectory=/home/cowrie/cowrie
+    ExecStart=/home/cowrie/cowrie/bin/cowrie start
+    ExecStop=/home/cowrie/cowrie/bin/cowrie stop
+    Type=forking
+    Restart=always
+
+    [Install]
+    WantedBy=multi-user.target
+
+Save and enable the service:
+
+.. code-block:: bash
+
+    sudo systemctl daemon-reload
+    sudo systemctl enable cowrie
+    sudo systemctl start cowrie
+
+Step 7.2: Create a systemd service for Slack Alerts
+******************
+
+Now create a service for the Slack alert script:
+
+.. code-block:: bash
+
+    sudo nano /etc/systemd/system/slackalerts.service
+
+Paste the following content:
+
+.. code-block:: ini
+
+    [Unit]
+    Description=Slack Alerts for Cowrie Honeypot
+    After=network.target cowrie.service
+    Requires=cowrie.service
+
+    [Service]
+    ExecStart=/usr/bin/python3.13 /home/cowrie/cowrie/slack_alerts.py
+    WorkingDirectory=/home/cowrie/cowrie
+    Restart=always
+    User=cowrie
+    Environment=PYTHONUNBUFFERED=1
+
+    [Install]
+    WantedBy=multi-user.target
+
+Enable and start the service:
+
+.. code-block:: bash
+
+    sudo systemctl daemon-reload
+    sudo systemctl enable slackalerts
+    sudo systemctl start slackalerts
+
+Step 7.3: Verify both services
+******************
+
+After rebooting your Raspberry Pi, verify both services:
+
+.. code-block:: bash
+
+    systemctl status cowrie
+    systemctl status slackalerts
+
+You should see both listed as ``active (running)``.  
+Slack alerts will now be sent automatically every time Cowrie detects interaction.
+
+
+
