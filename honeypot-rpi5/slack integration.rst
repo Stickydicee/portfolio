@@ -69,3 +69,22 @@ Try logging in or running a few fake commands. You should see Slack alerts like:
 - 📥 File Download Attempt
 - 🔌 New Session Started
 - 📴 Session Ended
+
+Step 6: Run the script in the background (tmux)
+***********************************************
+
+You can keep the script running in the background using `tmux`.
+
+Start a new tmux session::
+
+    $ tmux new -s slackmonitor
+    $ python3 slack_alerts.py
+
+Leave the script running and detach from tmux by pressing:
+
+**Ctrl + B**, then **D**
+
+To return to the session later::
+
+    $ tmux attach -t slackmonitor
+
