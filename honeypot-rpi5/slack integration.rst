@@ -15,10 +15,12 @@ Before you begin, make sure:
 Step 2: Write the Python Alert Script
 *************************************
 
-Go to the Cowrie directory::
+Go to the Cowrie directory:
 
-    $ cd ~/cowrie
-    $ nano slack_alerts.py
+.. code-block:: bash
+
+     cd ~/cowrie
+     nano slack_alerts.py
 
 Paste the contents of the `slack_alerts.py` script found in this repo or create one using the same structure.
 
