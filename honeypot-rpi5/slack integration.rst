@@ -114,7 +114,7 @@ Create a new service file:
 
     sudo nano /etc/systemd/system/cowrie.service
 
-Paste the following script from this repo `cowrie.service https://github.com/Stickydicee/portfolio/blob/main/honeypot-rpi5/cowrie.service>`_:
+Paste the following script from this repo `cowrie.service <https://github.com/Stickydicee/portfolio/blob/main/honeypot-rpi5/cowrie.service>`_
 
 .. code-block:: ini
 
