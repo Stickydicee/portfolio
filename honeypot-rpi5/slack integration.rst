@@ -116,23 +116,6 @@ Create a new service file:
 
 Paste the following script from this repo `cowrie.service <https://github.com/Stickydicee/portfolio/blob/main/honeypot-rpi5/cowrie.service>`_
 
-.. code-block:: ini
-
-    [Unit]
-    Description=Cowrie SSH/Telnet Honeypot
-    After=network.target
-
-    [Service]
-    User=cowrie
-    WorkingDirectory=/home/cowrie/cowrie
-    ExecStart=/home/cowrie/cowrie/bin/cowrie start
-    ExecStop=/home/cowrie/cowrie/bin/cowrie stop
-    Type=forking
-    Restart=always
-
-    [Install]
-    WantedBy=multi-user.target
-
 Save and enable the service:
 
 .. code-block:: bash
