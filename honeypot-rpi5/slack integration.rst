@@ -47,22 +47,28 @@ Paste this URL into your Python script under `WEBHOOK_URL`.
 Step 4: Save and Launch the Script
 **********************************
 
-Make the script executable (optional)::
+Make the script executable (optional):
 
-    $ chmod +x slack_alerts.py
+.. code-block:: bash
 
-Then run it::
+    chmod +x slack_alerts.py
 
-    $ python3 slack_alerts.py
+Then run it:
+
+.. code-block:: bash
+
+    python3 slack_alerts.py
 
 Leave this running in a terminal window, or run it in the background using tools like `screen` or `tmux`.
 
 Step 5: Try It Out
 ******************
 
-Use this command to simulate an interaction with Cowrie::
+Use this command to simulate an interaction with Cowrie:
 
-    $ ssh cowrie@localhost
+.. code-block:: bash
+
+    ssh cowrie@localhost
 
 Try logging in or running a few fake commands. You should see Slack alerts like:
 
@@ -77,18 +83,22 @@ Step 6: Run the script in the background (tmux)
 
 You can keep the script running in the background using `tmux`.
 
-Start a new tmux session::
+Start a new tmux session:
 
-    $ tmux new -s slackmonitor
-    $ python3 slack_alerts.py
+.. code-block:: bash
+
+    tmux new -s slackmonitor
+    python3 slack_alerts.py
 
 Leave the script running and detach from tmux by pressing:
 
 **Ctrl + B**, then **D**
 
-To return to the session later::
+To return to the session later:
 
-    $ tmux attach -t slackmonitor
+.. code-block:: bash
+
+    tmux attach -t slackmonitor
 
 Step 7: Run Slack Alerts Automatically on Boot
 ===============================================
