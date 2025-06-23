@@ -114,7 +114,7 @@ Create a new service file:
 
     sudo nano /etc/systemd/system/cowrie.service
 
-Paste the contents of the `cowrie.service <https://github.com/Stickydicee/portfolio/blob/main/honeypot-rpi5/cowrie.service>`_ to configure it as a systemd service:
+Paste the contents of the `cowrie.service <https://github.com/Stickydicee/portfolio/blob/main/honeypot-rpi5/cowrie.service>`_ to configure it as a systemd service.
 
 Save and enable the service:
 
@@ -133,7 +133,7 @@ Now create a service for the Slack alert script:
 
     sudo nano /etc/systemd/system/slackalerts.service
 
-Paste the contents of the `slackalerts.service <https://github.com/Stickydicee/portfolio/blob/main/honeypot-rpi5/slackalerts.service>`_ to configure it as a systemd service:
+Paste the contents of the `slackalerts.service <https://github.com/Stickydicee/portfolio/blob/main/honeypot-rpi5/slackalerts.service>`_ to configure it as a systemd service.
 
 Enable and start the service:
 
