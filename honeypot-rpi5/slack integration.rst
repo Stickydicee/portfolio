@@ -114,7 +114,7 @@ Create a new service file:
 
     sudo nano /etc/systemd/system/cowrie.service
 
-Paste the following script from this repo `cowrie.service <https://github.com/Stickydicee/portfolio/blob/main/honeypot-rpi5/cowrie.service>`_
+Paste the contents of the `cowrie.service <https://github.com/Stickydicee/portfolio/blob/main/honeypot-rpi5/cowrie.service>`_ to configure it as a systemd service:
 
 Save and enable the service:
 
@@ -133,24 +133,7 @@ Now create a service for the Slack alert script:
 
     sudo nano /etc/systemd/system/slackalerts.service
 
-Paste the following content:
-
-.. code-block:: ini
-
-    [Unit]
-    Description=Slack Alerts for Cowrie Honeypot
-    After=network.target cowrie.service
-    Requires=cowrie.service
-
-    [Service]
-    ExecStart=/usr/bin/python3.13 /home/cowrie/cowrie/slack_alerts.py
-    WorkingDirectory=/home/cowrie/cowrie
-    Restart=always
-    User=cowrie
-    Environment=PYTHONUNBUFFERED=1
-
-    [Install]
-    WantedBy=multi-user.target
+Paste the contents of the `slackalerts.service <https://github.com/Stickydicee/portfolio/blob/main/honeypot-rpi5/slackalerts.service>`_ to configure it as a systemd service:
 
 Enable and start the service:
 
@@ -172,6 +155,3 @@ After rebooting your Raspberry Pi, verify both services:
 
 You should see both listed as ``active (running)``.  
 Slack alerts will now be sent automatically every time Cowrie detects interaction.
-
-
-
