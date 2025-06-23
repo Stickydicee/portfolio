@@ -22,8 +22,8 @@ Go to the Cowrie directory:
      cd ~/cowrie
      nano slack_alerts.py
 
-Paste the contents of the [slack_alerts.py script](https://github.com/Stickydicee/portfolio/blob/main/honeypot-rpi5/slack_alerts.py) found in this repo or create one using the same structure.
- script found in this repo or create one using the same structure.
+Paste the contents of the [slack_alerts.py script](https://github.com/Stickydicee/portfolio/blob/main/honeypot-rpi5/slack_alerts.py) 
+found in this repo or create one using the same structure.
 
 Update the following two values in the script:
 
