@@ -129,5 +129,5 @@ To restart Cowrie after making changes:
 
 .. code-block:: bash
 
-    $ bin/cowrie stop
-    $ bin/cowrie start
+    bin/cowrie stop
+    bin/cowrie start
