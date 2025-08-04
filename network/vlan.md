@@ -86,3 +86,10 @@ This is where infrastructure lives.
 - Devices: Proxmox cluster, Home Assistant, Docker nodes, Wazuh, Grafana
 - Internal-only or highly restricted internet access
 - VLAN has inter-VLAN rules to accept incoming management/admin access
+
+  ---
+
+> **See also:**
+> - [`ports.md`](./ports.md) for VLAN assignments on switch/router ports  
+> - [`ssid.md`](./ssid.md) for VLAN assignments per Wi-Fi SSID  
+> - [`firewall.md`](./firewall.md) for inter-VLAN traffic rules
