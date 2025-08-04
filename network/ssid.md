@@ -64,7 +64,7 @@ These devices have full internet access but are restricted from management and s
 - VLAN: 5
 - Purpose: Guest access for home visitors
 - Security: **Open + Captive Portal**  
-  (see [`hotspot-config.md`](./hotspot-config.md))
+  (see [`hotspot.md`](./hotspot.md))
 - Broadcast: ✅ Visible
 
 Guests are fully isolated and can only access the internet. Devices connected here cannot reach other VLANs or internal resources.
