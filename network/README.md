@@ -10,7 +10,7 @@ This documentation serves both as a personal reference and a knowledge resource 
 
 ## 📁 Structure
 
-- [`vlans.md`](./vlans.md) – Overview of VLANs, subnetting decisions, and purpose of each network segment  
+- [`vlan.md`](./vlan.md) – Overview of VLANs, subnetting decisions, and purpose of each network segment  
 - [`ports.md`](./ports.md) – Port configuration for UniFi Gateway & Switch, VLAN tagging, and PoE usage
 - [`firewall.md`](./firewall.md) – Firewall policies, inter-VLAN access, and security controls
 - [`vpn.md`](./vpn.md) – VPN setup using UniFi Teleport and WireGuard for secure remote access
