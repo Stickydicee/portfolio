@@ -2,6 +2,9 @@
 
 This document explains how I configured my SSIDs to integrate with my VLAN-based segmented network. Each SSID is assigned to a specific VLAN and secured appropriately.
 
+![SSID Overview](./images/ssid.png)  
+*Overview of configured SSIDs in UniFi*
+
 ## 📶 SSID Overview
 
 | SSID Name        | VLAN              | Security       | Visible | Purpose                         |
@@ -10,9 +13,6 @@ This document explains how I configured my SSIDs to integrate with my VLAN-based
 | IoT              | IoT (133)         | WPA2           | ❌ No   | Wireless smart devices          |
 | MainNet          | Main - Trusted (1054)| WPA2/WPA3  | ✔️ Yes  | Trusted personal/work devices   |
 | MainNet (Guest)  | Guest (5)         | Open + Captive Portal | ✔️ Yes  | Visitor internet access         |
-
-![SSID Overview](./images/ssid.png)  
-*Overview of configured SSIDs in UniFi*
 
 ---
 
