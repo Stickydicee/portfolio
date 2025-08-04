@@ -47,3 +47,10 @@ This setup gives me **stable and encrypted** access to my home network when work
 - I needed **more stability and speed** during remote SSH sessions
 - WireGuard has a **stronger connection** than Teleport on mobile networks
 - Future plans include assigning **per-client firewall rules** and **specific VLAN access**
+
+  ---
+
+> **See also:**
+> - [`wan.md`](./wan.md) for upstream configuration and DNS settings  
+> - [`firewall.md`](./firewall.md) for VPN access control rules
+
