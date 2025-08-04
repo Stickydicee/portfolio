@@ -11,7 +11,7 @@ This document explains how I configured my SSIDs to integrate with my VLAN-based
 | MainNet          | Main - Trusted (1054)| WPA2/WPA3  | ✔️ Yes  | Trusted personal/work devices   |
 | MainNet (Guest)  | Guest (5)         | Open + Captive Portal | ✔️ Yes  | Visitor internet access         |
 
-![SSID Overview](./assets/ssid.png)  
+![SSID Overview](./images/ssid.png)  
 *Overview of configured SSIDs in UniFi*
 
 ---
@@ -73,8 +73,6 @@ Guests are fully isolated and can only access the internet. Devices connected he
 
 ## 🖼️ Screenshots
 
-![SSID Overview](./assets/ssid.png)  
-*Overview of configured SSIDs in UniFi*
 
-![Example SSID config](./assets/ssid-config.png)  
+![Example SSID config](./imagess/ssid-config.png)  
 *Detailed SSID settings including band selection and visibility*
