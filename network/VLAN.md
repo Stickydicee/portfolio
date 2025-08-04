@@ -85,8 +85,8 @@ This is where infrastructure lives.
 
 ## 🖼️ Screenshots
 
-![VLAN overview](./assets/vlan.png)  
+![VLAN overview](./images/vlan.png)  
 *VLAN list as configured in UniFi*
 
-![Example config](./assets/vlan-config.png)  
+![Example config](./images/vlan-config.png)  
 *Example of subnet/IP configuration for a VLAN*
