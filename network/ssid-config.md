@@ -69,5 +69,5 @@ These devices have full internet access but are restricted from management and s
 
 Guests are fully isolated and can only access the internet. Devices connected here cannot reach other VLANs or internal resources.
 
-![Example SSID config](./imagess/ssid-config.png)  
+![Example SSID config](./images/ssid-config.png)  
 *Detailed SSID settings including band selection and visibility*
