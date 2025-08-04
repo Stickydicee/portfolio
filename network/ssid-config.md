@@ -9,7 +9,7 @@ This document explains how I configured my SSIDs to integrate with my VLAN-based
 
 | SSID Name        | VLAN              | Security       | Visible | Purpose                         |
 |------------------|-------------------|----------------|---------|----------------------------------|
-| M                | Management (1)    | WPA2/WPA3      | ✔️ Yes  | Admin access from laptop        |
+| M                | Management (1)    | WPA2/WPA3      | ❌ No  | Admin access from laptop        |
 | IoT              | IoT (133)         | WPA2           | ❌ No   | Wireless smart devices          |
 | MainNet          | Main - Trusted (1054)| WPA2/WPA3  | ✔️ Yes  | Trusted personal/work devices   |
 | MainNet (Guest)  | Guest (5)         | Open + Captive Portal | ✔️ Yes  | Visitor internet access         |
@@ -23,7 +23,7 @@ This document explains how I configured my SSIDs to integrate with my VLAN-based
 - Purpose: For quick wireless access to UniFi admin interface
 - Security: **WPA2/WPA3 hybrid**
 - Band Steering: ✅ Enabled (for better performance)
-- Broadcast: ✅ Visible
+- Broadcast: ❌ Hidden SSID
 
 Used on my laptop to manage UniFi devices without needing Ethernet.
 
