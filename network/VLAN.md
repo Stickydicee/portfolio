@@ -19,13 +19,13 @@ My network is segmented into five VLANs:
 | Main – Trusted  | 1054    | Personal & work devices|
 | Server – Trusted| 88      | Infrastructure & services|
 
-![VLAN overview](./images/vlan.png)  
-*VLAN list as configured in UniFi*
-
 These VLANs are configured in UniFi and assigned to specific switch ports and SSIDs.
 See:
 - [`port-config.md`](./port-config.md)
 - [`ssid-config.md`](./ssid-config.md)
+
+![VLAN overview](./images/vlan.png)  
+*VLAN list as configured in UniFi*
 
 Devices that connect to a port or SSID associated with a VLAN automatically receive an IP address in the corresponding subnet via DHCP.  
 For most devices, I assign a **static IP** once the address is known.
