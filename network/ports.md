@@ -14,7 +14,7 @@ Each device has a specific number of physical ports and roles configured in the 
   - Port 1: Connection to USW Lite 8 PoE
   - Port 5: WAN uplink from ISP modem
 
- 📷 ![Port overview – CGU](../images/ports-CGU.png)
+ 📷 ![Port overview – CGU](./images/ports-CGU.png)
 
 - **USW Lite 8 PoE:** 8 ports (ports 1–4 are PoE+ capable)
   - Port 1: Access Point (U6 Pro)
@@ -24,7 +24,7 @@ Each device has a specific number of physical ports and roles configured in the 
   - Port 6: Raspberry Pi 5 (Home Assistant)
   - Port 7–8: Proxmox Cluster nodes
   
-📷 ![Port overview – USW](../images/ports-USW.png)
+📷 ![Port overview – USW](./images/ports-USW.png)
 
 ---
 
@@ -38,7 +38,7 @@ Each port can be configured with detailed options in UniFi’s port management m
 - **PoE Mode:** Enable/disable PoE+ (if applicable)
 - **Spanning Tree Protocol:** Enabled for loop prevention
 
-📷 ![Port settings example](../images/ports-config.png)
+📷 ![Port settings example](./images/ports-config.png)
 
 ---
 
