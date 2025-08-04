@@ -26,18 +26,16 @@ Teleport is UniFi's built-in VPN solution, designed to be simple and fast to dep
 
 I am currently experimenting with setting up a **WireGuard VPN server** via the UniFi Cloud Gateway Ultra interface.
 
-The screenshot below shows an **example configuration** I was preparing:
+The screenshot below shows an **example configuration**:
 
 - **VPN type**: WireGuard
 - **Interface**: WAN1
 - **Port**: 51821 (example)
-- **Client subnet**: `192.168.3.0/24` (planned range)
+- **Client subnet**: `192.168.3.0/24`
 - **DNS**: Inherited from WAN
-- **Clients**: Planned usage: laptop + phone
+- **Clients**: laptop + phone
 
-> ⚠️ This VPN is **not yet fully configured or in production** — it is a planned upgrade for more stable and configurable remote access.
-
-The setup is meant to replace Teleport, which was too unstable for my use case when connected via Wi-Fi or mobile hotspots.
+This setup gives me **stable and encrypted** access to my home network when working remotely, especially via **SSH** or web UIs for my servers.
 
 ![Example config](./images/vpn-setup.png)
 
