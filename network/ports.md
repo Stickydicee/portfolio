@@ -61,3 +61,10 @@ Note: Some ports (like Port 4) are currently unused or reserved for future expan
 
 I plan to explore tighter integration of port profiles with **firewall policies** and **device isolation** (see [`firewall.md`](./firewall.md)) to enhance segmentation and security in the future.
 
+---
+
+> **See also:**
+> - [`vlans.md`](./vlan.md) for VLAN ID overview and segmentation  
+> - [`firewall.md`](./firewall.md) for firewall rules per VLAN   
+> - [`wan.md`](./wan.md) for WAN port configuration
+
