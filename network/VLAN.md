@@ -19,6 +19,9 @@ My network is segmented into five VLANs:
 | Main – Trusted  | 1054    | Personal & work devices|
 | Server – Trusted| 88      | Infrastructure & services|
 
+![VLAN overview](./images/vlan.png)  
+*VLAN list as configured in UniFi*
+
 These VLANs are configured in UniFi and assigned to specific switch ports and SSIDs.
 See:
 - [`port-config.md`](./port-config.md)
@@ -85,8 +88,7 @@ This is where infrastructure lives.
 
 ## 🖼️ Screenshots
 
-![VLAN overview](./images/vlan.png)  
-*VLAN list as configured in UniFi*
+
 
 ![Example config](./images/vlan-config.png)  
 *Example of subnet/IP configuration for a VLAN*
