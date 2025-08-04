@@ -30,6 +30,9 @@ See:
 Devices that connect to a port or SSID associated with a VLAN automatically receive an IP address in the corresponding subnet via DHCP.  
 For most devices, I assign a **static IP** once the address is known.
 
+![Example config](./images/vlan-config.png)  
+*Example of subnet/IP configuration for a VLAN*
+
 ---
 
 ## 🔐 VLAN Breakdown
@@ -83,12 +86,3 @@ This is where infrastructure lives.
 - Devices: Proxmox cluster, Home Assistant, Docker nodes, Wazuh, Grafana
 - Internal-only or highly restricted internet access
 - VLAN has inter-VLAN rules to accept incoming management/admin access
-
----
-
-## 🖼️ Screenshots
-
-
-
-![Example config](./images/vlan-config.png)  
-*Example of subnet/IP configuration for a VLAN*
