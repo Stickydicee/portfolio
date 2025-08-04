@@ -71,3 +71,10 @@ Guests are fully isolated and can only access the internet. Devices connected he
 
 ![Example SSID config](./images/ssid-config.png)  
 *Detailed SSID settings including band selection and visibility*
+
+---
+
+> **See also:**
+> - [`vlans.md`](./vlan.md) for SSID-to-VLAN mapping    
+> - [`hotspot.md`](./hotspot.md) for guest SSID configuration
+
