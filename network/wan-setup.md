@@ -30,7 +30,7 @@ My ISP delivers IPv4 connectivity over IPv6 using **PPPoE**.
 
 ## 🧠 DNS Configuration
 
-- **Primary DNS**: Local AdGuard instance at `10.120.88.101`  
+- **Primary DNS**: Local AdGuard instance at `<IP host>`  
   (Details in [dns.md](./dns.md))
 - **Secondary DNS**: Cloudflare (`1.1.1.1`)
 
