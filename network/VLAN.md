@@ -2,6 +2,9 @@
 
 This document outlines the VLAN structure of my segmented homelab network.
 
+![VLAN overview](./images/vlan.png)  
+*VLAN list as configured in UniFi*
+
 ## 🧮 Subnet Planning
 
 I use a custom subnetting layout instead of the default `192.168.x.x` ranges.  
@@ -23,9 +26,6 @@ These VLANs are configured in UniFi and assigned to specific switch ports and SS
 See:
 - [`port-config.md`](./port-config.md)
 - [`ssid-config.md`](./ssid-config.md)
-
-![VLAN overview](./images/vlan.png)  
-*VLAN list as configured in UniFi*
 
 Devices that connect to a port or SSID associated with a VLAN automatically receive an IP address in the corresponding subnet via DHCP.  
 For most devices, I assign a **static IP** once the address is known.
