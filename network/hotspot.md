@@ -47,3 +47,9 @@ I’ve kept portal settings simple:
 - Basic restriction to prevent access to internal (native) network
 
 ![Auth Methods](./images/hotspot-config.png)
+
+---
+
+> **See also:**
+> - [`ssid.md`](./ssid.md) for the guest SSID bound to this hotspot  
+> - [`firewall.md`](./firewall.md) for isolation and guest access policies
