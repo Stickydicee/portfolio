@@ -42,7 +42,7 @@ My ISP delivers IPv4 connectivity over IPv6 using **PPPoE**.
 | VLAN ID                | 6                       |
 | MAC Clone              | Enabled                 |
 | IP Version             | IPv4 (PPPoE)            |
-| DNS (Primary)          | AdGuard (`10.120.88.101`) |
+| DNS (Primary)          | AdGuard (`IP host`) |
 | DNS (Secondary)        | Cloudflare (`1.1.1.1`)  |
 
 ---
