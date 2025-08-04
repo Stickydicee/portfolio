@@ -14,7 +14,7 @@ This documentation serves both as a personal reference and a knowledge resource 
 - [`ports.md`](./ports.md) – Port configuration for UniFi Gateway & Switch, VLAN tagging, and PoE usage
 - [`firewall.md`](./firewall.md) – Firewall policies, inter-VLAN access, and security controls
 - [`vpn.md`](./vpn.md) – VPN setup using UniFi Teleport and WireGuard for secure remote access
-- `dhcp.md – DHCP configuration, static leases, and DNS assignment (AdGuard)
+- [`wan.md`](./wan.md) – WAN setup, VLAN ID, PPPoE, DNS settings, and MAC address cloning  
 - [`ssid.md`](./ssid.md) – Wi-Fi SSIDs per VLAN, encryption types, visibility, and roaming
 - [`hotspot.md`](./hotspot.md) – Captive portal configuration and branding for guest Wi-Fi access
 
