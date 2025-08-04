@@ -24,7 +24,7 @@ My network is segmented into five VLANs:
 
 These VLANs are configured in UniFi and assigned to specific switch ports and SSIDs.
 See:
-- [`port.md`](./port.md)
+- [`ports.md`](./ports.md)
 - [`ssid.md`](./ssid.md)
 
 Devices that connect to a port or SSID associated with a VLAN automatically receive an IP address in the corresponding subnet via DHCP.  
