@@ -2,6 +2,8 @@
 
 This document describes how the primary WAN interface of my UniFi Cloud Gateway Ultra is configured to connect to the internet via my ISP's modem.
 
+![WAN config](./images/wan-config.png)
+
 ## 🧩 Physical Setup
 
 An Ethernet cable runs from the **modem provided by my ISP** to **Port 5** on my UniFi Cloud Gateway Ultra. Port 5 is configured as the **primary WAN port**.
