@@ -37,9 +37,9 @@ The screenshot below shows an **example configuration**:
 
 This setup gives me **stable and encrypted** access to my home network when working remotely, especially via **SSH** or web UIs for my servers.
 
-![Example config](./images/vpn-setup.png)
-
 ![VPN server list](./images/vpn-vpnserver.png)
+
+![Example config](./images/vpn-setup.png)
 
 ---
 
