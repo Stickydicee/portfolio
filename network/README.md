@@ -10,13 +10,13 @@ This documentation serves both as a personal reference and a knowledge resource 
 
 ## 📁 Structure
 
-- `vlans.md` – Overview of VLANs, subnetting decisions, and purpose of each network segment
-- `ports.md` – Port configuration for UniFi Gateway & Switch, VLAN tagging, and PoE usage
-- `firewall.md` – Firewall policies, inter-VLAN access, and security controls
-- `vpn.md` – VPN setup using UniFi Teleport and WireGuard for secure remote access
-- `dhcp.md` – DHCP configuration, static leases, and DNS assignment (AdGuard)
-- `ssid.md` – Wi-Fi SSIDs per VLAN, encryption types, visibility, and roaming
-- `hotspot.md` – Captive portal configuration and branding for guest Wi-Fi access
+- [`vlans.md`](./vlans.md) – Overview of VLANs, subnetting decisions, and purpose of each network segment  
+- [`ports.md`](./ports.md) – Port configuration for UniFi Gateway & Switch, VLAN tagging, and PoE usage
+- [`firewall.md`](./firewall.md) – Firewall policies, inter-VLAN access, and security controls
+- [`vpn.md`](./vpn.md) – VPN setup using UniFi Teleport and WireGuard for secure remote access
+- `dhcp.md – DHCP configuration, static leases, and DNS assignment (AdGuard)
+- [`ssid.md`](./ssid.md) – Wi-Fi SSIDs per VLAN, encryption types, visibility, and roaming
+- [`hotspot.md`](./hotspot.md) – Captive portal configuration and branding for guest Wi-Fi access
 
 ---
 
