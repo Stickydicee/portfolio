@@ -10,7 +10,7 @@ In the **UniFi Insights > Hotspot** tab, I can monitor:
 - Used/download/uploaded data
 - Session duration and returning users
 
-![Hotspot Insights](./images/hotspot.png)
+![Hotspot Insights](./images/hotspot/hotspot.png)
 
 ---
 
@@ -23,7 +23,7 @@ The hotspot landing page includes custom branding for a polished user experience
 - Terms of service (editable)
 - Optional image background and logo placement
 
-![Landing Page](./images/hotspot-landingpage.png)
+![Landing Page](./images/hotspot/hotspot-landingpage.png)
 
 ---
 
@@ -33,7 +33,7 @@ Currently, I use **Password-only** authentication to keep access easy for guests
 - No accounts, no apps — just a single password.
 - Alternatives include Facebook login, paid access, voucher codes, or RADIUS.
 
-![Auth Methods](./images/hotspot-auth.png)
+![Auth Methods](./images/hotspot/hotspot-auth.png)
 
 ---
 
@@ -46,7 +46,7 @@ I’ve kept portal settings simple:
 - Session expiration: 24 hours
 - Basic restriction to prevent access to internal (native) network
 
-![Auth Methods](./images/hotspot-config.png)
+![Auth Methods](./images/hotspot/hotspot-config.png)
 
 ---
 
