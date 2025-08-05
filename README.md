@@ -94,6 +94,7 @@ This is a list of the core hardware components used in my homelab setup, coverin
 - **Raspberry Pi 5** – Running Home Assistant  
 - **ZigBee 3.0 USB Dongle Plus** – ZigBee support for smart devices  
 
+---
 
 > Feel free to connect or reach out:
 > - GitHub: [@nickyjacobs](https://github.com/nickyjacobs)
