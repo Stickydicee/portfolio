@@ -8,17 +8,17 @@ This document outlines the process I followed to create a bootable USB installer
 
 Before starting, I downloaded the following tools:
 
-- **Proxmox VE ISO** from the [official site](https://www.proxmox.com/en/downloads)
-  - Version: **9.0**
-  - Size: **1.64 GB**
-
-![Proxmox ISO](../images/rufus/rufus-proxmox.png)
-
 - **Rufus** (USB flashing utility) from the [official Rufus website](https://rufus.ie/en/)
   - I selected: `rufus-4.9.exe`  
     (Standard version, Windows x64, ~2MB)
 
 ![Rufus download](../images/rufus/rufus-download.png)
+
+- **Proxmox VE ISO** from the [official site](https://www.proxmox.com/en/downloads)
+  - Version: **9.0**
+  - Size: **1.64 GB**
+
+![Proxmox ISO](../images/rufus/rufus-proxmox.png)
 
 ---
 
