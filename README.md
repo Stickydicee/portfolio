@@ -73,7 +73,7 @@ Configured with Slack webhook alerts, authbind for port 22 access, fake shell en
 I'm currently documenting my Proxmox cluster which includes 2 nodes (Mini PCs), containerized services (LXC, Docker), Wazuh SIEM, Grafana, backups, and more.  
 This section will grow as I continue building and testing new components.
 
-➡️ [Currently being written: ./proxmox]
+➡️ [Currently being written](./proxmox)
 
 ---
 
