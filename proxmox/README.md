@@ -17,4 +17,4 @@ This setup serves as the foundation for future virtual machines (VMs), LXC conta
 
 ---
 
-🔒 The configuration is designed around real-world usage, using a **Lenovo M720Q** and **HP EliteDesk 800 G2** as nodes in the cluster and includes dashboards for visibility and learning
+> 🔒 The configuration is designed around real-world usage, using a **Lenovo M720Q** and **HP EliteDesk 800 G2** as nodes in the cluster and includes dashboards for visibility and learning
