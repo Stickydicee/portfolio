@@ -1,4 +1,4 @@
-# ☠ Cybersecurity Portfolio - Nicky Jacobs
+# 👨🏽‍💻 Cybersecurity Portfolio - Nicky Jacobs
 
 Welcome to my cybersecurity portfolio. My name is **Nicky Jacobs**, born in **Curaçao** and currently living in the **Netherlands**.
 
