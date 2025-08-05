@@ -63,7 +63,7 @@ Includes visual guides, zone-based logic, and use of IGMP snooping, WireGuard VP
 
 ➡️ [View documentation](./network)
 
-### 🧅 Cowrie Honeypot on Raspberry Pi
+### 🍯 Cowrie Honeypot on Raspberry Pi
 A honeypot project using Cowrie on a Raspberry Pi 5 to log and analyze unauthorized SSH login attempts.  
 Configured with Slack webhook alerts, authbind for port 22 access, fake shell environment, and automated logging.
 
