@@ -18,7 +18,7 @@ Teleport is UniFi's built-in VPN solution, designed to be simple and fast to dep
 - It worked reliably only on **wired connections**
 - Limited options for configuration or control
 
-![Teleport invite](./images/vpn-wifiman.png)
+![Teleport invite](./images/vpn/vpn-wifiman.png)
 
 ---
 
@@ -37,9 +37,9 @@ The screenshot below shows an **example configuration**:
 
 This setup gives me **stable and encrypted** access to my home network when working remotely, especially via **SSH** or web UIs for my servers.
 
-![VPN server list](./images/vpn-vpnserver.png)
+![VPN server list](./images/vpn/vpn-vpnserver.png)
 
-![Example config](./images/vpn-setup.png)
+![Example config](./images/vpn/vpn-setup.png)
 
 ---
 
