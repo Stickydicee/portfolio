@@ -67,7 +67,7 @@ Includes visual guides, zone-based logic, and use of IGMP snooping, WireGuard VP
 A honeypot project using Cowrie on a Raspberry Pi 5 to log and analyze unauthorized SSH login attempts.  
 Configured with Slack webhook alerts, authbind for port 22 access, fake shell environment, and automated logging.
 
-➡️ [View documentation](./honeypot)
+➡️ [View documentation](./honeypot-rpi5)
 
 ### 💻 Proxmox Homelab Cluster *(In Progress)*
 I'm currently documenting my Proxmox cluster which includes 2 nodes (Mini PCs), containerized services (LXC, Docker), Wazuh SIEM, Grafana, backups, and more.  
