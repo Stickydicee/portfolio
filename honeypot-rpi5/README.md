@@ -42,9 +42,3 @@ This project provides practical hands-on experience for:
 - Log analysis
 - Developing Python automation for SOC workflows
 - Use it to simulate attacks, gather attacker TTPs, and improve detection rules.
-
----
-
-## 📸 Screenshots
-*You can add screenshots of your Pi setup, dashboard or logs here later.*
-```
