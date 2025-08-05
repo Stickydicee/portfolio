@@ -2,7 +2,7 @@
 
 This document explains how I configured my SSIDs to integrate with my VLAN-based segmented network. Each SSID is assigned to a specific VLAN and secured appropriately.
 
-![SSID Overview](./images/ssid.png)  
+![SSID Overview](./images/ssid/ssid.png)  
 *Overview of configured SSIDs in UniFi*
 
 ## 📶 SSID Overview
@@ -69,7 +69,7 @@ These devices have full internet access but are restricted from management and s
 
 Guests are fully isolated and can only access the internet. Devices connected here cannot reach other VLANs or internal resources.
 
-![Example SSID config](./images/ssid-config.png)  
+![Example SSID config](./images/ssid/ssid-config.png)  
 *Detailed SSID settings including band selection and visibility*
 
 ---
