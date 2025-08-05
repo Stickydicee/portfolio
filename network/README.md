@@ -1,4 +1,4 @@
-# 🛠️ Homelab Network Configuration
+# 🌐 Homelab Network Configuration
 
 This folder contains a complete overview of my homelab network configuration, deployed on UniFi hardware. The network is fully segmented using VLANs, with clearly defined firewall rules, DHCP reservations, port tagging, and secure remote access via WireGuard VPN.
 
