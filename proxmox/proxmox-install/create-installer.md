@@ -12,13 +12,13 @@ Before starting, I downloaded the following tools:
   - Version: **9.0**
   - Size: **1.64 GB**
 
-![Proxmox ISO](./images/rufus/rufus-proxmox.png)
+![Proxmox ISO](../images/rufus/rufus-proxmox.png)
 
 - **Rufus** (USB flashing utility) from the [official Rufus website](https://rufus.ie/en/)
   - I selected: `rufus-4.9.exe`  
     (Standard version, Windows x64, ~2MB)
 
-![Rufus download](./images/rufus/rufus-download.png)
+![Rufus download](../images/rufus/rufus-download.png)
 
 ---
 
@@ -36,7 +36,7 @@ Once both files were downloaded:
    - **Cluster size**: 8192 bytes (default)
 5. Pressed **START** and confirmed any prompts.
 
-![Rufus setup](./images/rufus/rufus-installer.png)
+![Rufus setup](../images/rufus/rufus-installer.png)
 
 After a few minutes, the USB installer was successfully created and ready to use on bare-metal hardware.
 
