@@ -2,7 +2,7 @@
 
 This document outlines the VLAN structure of my segmented homelab network.
 
-![VLAN overview](./images/vlan.png)  
+![VLAN overview](./images/vlan/vlan.png)  
 *VLAN list as configured in UniFi*
 
 ## 🧮 Subnet Planning
@@ -30,7 +30,7 @@ See:
 Devices that connect to a port or SSID associated with a VLAN automatically receive an IP address in the corresponding subnet via DHCP.  
 For most devices, I assign a **static IP** once the address is known.
 
-![Example config](./images/vlan-config.png)  
+![Example config](./images/vlan/vlan-config.png)  
 *Example of subnet/IP configuration for a VLAN*
 
 ---
