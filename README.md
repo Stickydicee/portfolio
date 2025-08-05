@@ -77,9 +77,9 @@ This section will grow as I continue building and testing new components.
 
 ---
 
-# 📬 Contact
+> # 📬 Contact
 
-Feel free to connect or reach out:
+> Feel free to connect or reach out:
 
-- GitHub: [@nickyjacobs](https://github.com/nickyjacobs)
-- LinkedIn: [Nicky Jacobs](https://www.linkedin.com/in/nicky-jacobs-49a10b275/)
+> - GitHub: [@nickyjacobs](https://github.com/nickyjacobs)
+> - LinkedIn: [Nicky Jacobs](https://www.linkedin.com/in/nicky-jacobs-49a10b275/)
