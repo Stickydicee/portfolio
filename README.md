@@ -102,6 +102,6 @@ Here’s a picture of my current homelab setup. I enjoy building and improving m
 
 ---
 
-> Feel free to connect or reach out:
+> 📲 Feel free to connect or reach out:
 > - GitHub: [@nickyjacobs](https://github.com/nickyjacobs)
 > - LinkedIn: [Nicky Jacobs](https://www.linkedin.com/in/nicky-jacobs-49a10b275/)
