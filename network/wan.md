@@ -2,7 +2,7 @@
 
 This document describes how the primary WAN interface of my UniFi Cloud Gateway Ultra is configured to connect to the internet via my ISP's modem.
 
-![WAN config](./images/wan-config.png)
+![WAN config](./images/wan/wan-config.png)
 
 ## 🧩 Physical Setup
 
