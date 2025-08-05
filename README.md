@@ -2,17 +2,17 @@
 
 Welcome to my cybersecurity portfolio. My name is **Nicky Jacobs**, born in **Curaçao** and currently living in the **Netherlands**.
 
-I value making good use of my time and consider myself an open-minded person. I enjoy doing meaningful and fun things like going to festivals with friends, grabbing drinks on a terrace, visiting museums and art galleries, and exploring new activities. I also love traveling—visiting new countries and continents to discover what more the world has to offer.
+I value making good use of my time and consider myself an open-minded person. I enjoy doing meaningful and fun things like going to festivals with friends, grabbing drinks on a terrace, visiting museums and art galleries, and exploring new activities. I also love traveling, visiting new countries and continents to discover what more the world has to offer.
 
-Music plays an important role in my life, and I always enjoy a good film, series, or documentary. I like working out, and I’m currently learning **Spanish**. Every day, I strive to become the best version of myself—mainly for myself, but also for the people who matter to me.
+I love listening to music and I always enjoy a good film, series, or documentary. I like working out and I’m currently learning **Spanish**. Every day, I strive to become the best version of myself, mainly for myself, but also for the people who matter to me.
 
 ---
 
 ## My Passion for Cybersecurity
 
-I'm deeply passionate about **IT**, especially **cybersecurity**. It’s something I invest a lot of time into—and gladly so.
+I'm deeply passionate about **IT**, especially **cybersecurity**. It’s something I invest a lot of time into and gladly so.
 
-My favorite podcast is _Risky Business_ by Patrick Gray. I follow cybersecurity news via **WIRED**, **NCSC**, and I also enjoy **Darknet Diaries**.
+My favorite podcast is _Risky Business_ by Patrick Gray. I follow cybersecurity news via **WIRED**, **NCSC** and I also enjoy **Darknet Diaries**.
 
 To build hands-on skills, I’ve developed a **homelab** and collected various tools and setups, including:
 - A laptop with a **Kali Linux VM**
@@ -34,12 +34,14 @@ In the **Security Orchestration (SOC)** module, I learned about:
 - Threat Intelligence and actor profiling
 - Legal frameworks and compliance
 - Security awareness campaigns
+- and more
 
 ### Tools & Frameworks I've worked with:
-- **Shodan**, **HaveIBeenPwned**
+- **Shodan**
 - **Mitre ATT&CK**, **Cyber Kill Chain**, **Diamond Model**
-- **RAVIB Methodology**, **SANS Maturity Model**
+- **RAVIB Methodology**, **SANS Maturity Model**, **ISO 27001**
 - Various **vulnerability databases**
+- and more
 
 ---
 
