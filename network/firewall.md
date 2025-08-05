@@ -105,7 +105,7 @@ Are they the best tools in the world? I can’t say. But they work really well f
 
 ---
 
-_See also:_
-- [vpn.md](./vpn.md) for remote access setup
-- [wan.md](./wan.md) for WAN configuration and DNS setup
-- [hotspot.md](./hotspot.md) for guest WiFi and captive portal
+> **See also:**
+> - [`vpn.md`](./vpn.md) for remote access setup
+> - [`wan.md`](./wan.md) for WAN configuration and DNS setup
+> - [`hotspot.md`](./hotspot.md) for guest WiFi and captive portal
