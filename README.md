@@ -57,7 +57,7 @@ I’m still at the beginning of my career, and I’m okay with that. I’m here 
 
 # 📁 Featured Projects
 
-### 🛠️ Network Configuration
+### 🌐 Network Configuration
 A fully segmented UniFi-based home network, documented with VLANs, firewall policies, VPN access, port configurations, guest networks, and more.  
 Includes visual guides, zone-based logic, and use of IGMP snooping, WireGuard VPN, and Home Assistant integrations.
 
