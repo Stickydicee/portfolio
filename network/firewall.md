@@ -10,7 +10,7 @@ Unifi has integrated a **Zone-Based Firewall** model that simplifies firewall ru
 
 For someone like me who's still developing their networking skills, this helps reduce complexity and allows me to segment my network in a visual and logical way.
 
-![Zone Explanation](./assets/firewall-zones-explanation.png)
+![Zone Explanation](./images/firewall/firewall-zones-explanation.png)
 
 ---
 
@@ -44,7 +44,7 @@ In the future, I plan to separate `Main - Trusted` and `Server - Trusted` into t
 - Contains: `IoT`
 - These are devices I don’t trust with access to the rest of my network (e.g., smart TVs, video doorbells), but they still need internet access.
 
-![Zone Table](./assets/firewall-zones.png)
+![Zone Table](./images/firewall/firewall-zones.png)
 
 ---
 
@@ -52,7 +52,7 @@ In the future, I plan to separate `Main - Trusted` and `Server - Trusted` into t
 
 I really like how UniFi visualizes firewall policies between zones using a **zone matrix**:
 
-![Zone Matrix](./assets/firewall-zone-matrix.png)
+![Zone Matrix](./images/firewall/firewall-zone-matrix.png)
 
 This gives you a clear overview of:
 - How many policies exist between each zone pair
@@ -85,7 +85,7 @@ And then you can **specify direction** of traffic and what should be returned.
 
 As of now, I’ve only configured **a few essential rules** that I needed to get my core systems working properly:
 
-![Firewall Rules](./assets/firewall-policys.png)
+![Firewall Rules](./images/firewall/firewall-policys.png)
 
 - Allow communication between `Home Assistant` and `Reolink HUB`
 - Allow communication between `ServerTrusted` and `IoT`
