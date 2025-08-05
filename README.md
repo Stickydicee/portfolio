@@ -98,7 +98,7 @@ This is a list of the core hardware components used in my homelab setup, coverin
 
 Here’s a picture of my current homelab setup. I enjoy building and improving my environment to learn more about cybersecurity and infrastructure.
 
-![Homelab Setup](./assets/images/hardware/hardware-setup.jpeg)
+![Homelab Setup](./assets/images/hardware-setup.jpeg)
 
 ---
 
