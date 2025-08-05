@@ -57,25 +57,43 @@ I’m still at the beginning of my career, and I’m okay with that. I’m here 
 
 # 📁 Featured Projects
 
-### 🌐 Network Configuration
+## 🌐 Network Configuration
 A fully segmented UniFi-based home network, documented with VLANs, firewall policies, VPN access, port configurations, guest networks, and more.  
 Includes visual guides, zone-based logic, and use of IGMP snooping, WireGuard VPN, and Home Assistant integrations.
 
 ➡️ [View documentation](./network)
 
-### 🍯 Cowrie Honeypot on Raspberry Pi
+## 🍯 Cowrie Honeypot on Raspberry Pi
 A honeypot project using Cowrie on a Raspberry Pi 5 to log and analyze unauthorized SSH login attempts.  
 Configured with Slack webhook alerts, authbind for port 22 access, fake shell environment, and automated logging.
 
 ➡️ [View documentation](./honeypot-rpi5)
 
-### 💻 Proxmox Homelab Cluster *(In Progress)*
+## 💻 Proxmox Homelab Cluster *(In Progress)*
 I'm currently documenting my Proxmox cluster which includes 2 nodes (Mini PCs), containerized services (LXC, Docker), Wazuh SIEM, Grafana, backups, and more.  
 This section will grow as I continue building and testing new components.
 
 ➡️ [Currently being written](./proxmox)
 
 ---
+
+# 🖧 Hardware Overview
+
+This is a list of the core hardware components used in my homelab setup, covering networking, virtualization, and smart home integrations.
+
+## 🌐 Network Infrastructure
+- UniFi Cloud Gateway Ultra  
+- UniFi Switch Lite 8 PoE  
+- UniFi 6 Professional Access Point  
+
+## 🖥️ Proxmox Cluster
+- **Lenovo M720Q** – Main node running LXC and VMs  
+- **HP EliteDesk 800 G2** – Second node running Wazuh, Grafana, Prometheus, and backups  
+
+## 🏠 Smart Home & Raspberry Pi
+- **Raspberry Pi 5** – Running Home Assistant  
+- **ZigBee 3.0 USB Dongle Plus** – ZigBee support for smart devices  
+
 
 > Feel free to connect or reach out:
 > - GitHub: [@nickyjacobs](https://github.com/nickyjacobs)
