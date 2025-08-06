@@ -154,7 +154,7 @@ Once logged in, you should see the Proxmox dashboard. 🎉
 
 ---
 
->After installation, proceed to post-install configurations:  
->➡️ [post-install.md](post-install.md)
+> After installation, proceed to post-install configurations:  
+> ➡️ [post-install.md](post-install.md)
 
 
