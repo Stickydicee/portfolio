@@ -16,7 +16,7 @@ It includes functionality like:
 - Installing PVE tools and add-ons
 - Tuning configurations and repositories
 
-In this documentation I am only going to use the [**Proxmox Post Install** helper script](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install).
+In this documentation I am only going to use the [**Proxmox VE Post Install** helper script](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install).
 
 ![Helper script overview](../images/post-install/postinstall-helperscript.png)
 
