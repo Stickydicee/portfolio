@@ -16,7 +16,7 @@ It includes functionality like:
 - Installing PVE tools and add-ons
 - Tuning configurations and repositories
 
-![Helper script overview](../screenshots/postinstall-helperscript.png)
+![Helper script overview](../images/post-install/postinstall-helperscript.png)
 
 > 🔎 I highly recommend browsing the list of available scripts on the site — it’s a valuable toolbox.
 
@@ -33,7 +33,7 @@ To execute the script, copy the following line into the shell of the node you wa
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/post-pve-install.sh)"
 ```
 
-![Shell with script input](../screenshots/postinstall-shellscript.png)
+![Shell with script input](../images/post-install/postinstall-shellscript.png)
 
 ---
 
@@ -41,11 +41,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 1. In the Proxmox UI, click on the correct node in the sidebar (e.g., `server-a`)
 
-![Node selection](../screenshots/postinstall-nodes.png) 
+![Node selection](../images/post-install/postinstall-nodes.png) 
 
 2. Then choose `Shell` from the top-right menu or the left navigation panel
  
-![Open shell](../screenshots/postinstall-shell.png)
+![Open shell](../images/post-install/postinstall-shell.png)
 
 ---
 
@@ -84,4 +84,4 @@ When done, I reboot the node via the UI:
 1. Click the node name (e.g. `server-a`)
 2. Use the `Reboot` button in the top-right corner
 
-![Reboot location](../screenshots/postinstall-reboot.png)
+![Reboot location](../images/post-install/postinstall-reboot.png)
