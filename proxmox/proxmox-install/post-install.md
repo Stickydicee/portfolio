@@ -84,3 +84,11 @@ When done, I reboot the node via the UI:
 2. Use the `Reboot` button in the top-right corner
 
 ![Reboot location](../images/post-install/postinstall-reboot.png)
+
+---
+
+## ✅ After the Reboot
+
+Once the Proxmox server has rebooted and is fully online again, all the fundamental post-installation steps are complete.
+
+You can now begin deploying LXC containers and creating virtual machines (VMs) as needed.
