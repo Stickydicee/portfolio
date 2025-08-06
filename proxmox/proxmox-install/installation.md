@@ -37,7 +37,7 @@ I used:
 2. Open the **Boot Menu** by pressing `F12` (Lenovo) or `F10` on (Windows).
 3. Select the USB drive to boot.
 
-![Proxmox Welcome Screen](./proxmox-welcome.png)
+![Proxmox Welcome Screen](../images/proxmox-install/proxmox-welcome.png)
 
 Choose `Install Proxmox VE (Graphical)` and press **Enter**.
 
@@ -51,7 +51,7 @@ Although I plan to switch to **ZFS** later, ext4 works fine for my current setup
 - PC 1: NVMe + SATA
 - PC 2: Only SATA
 
-![Storage Selection](./proxmox-storage.png)
+![Storage Selection](../images/proxmox-install/proxmox-storage.png)
 
 After selecting the correct drive and storage type, click **Next**.
 
@@ -65,7 +65,7 @@ Input the following:
 - Time Zone: **Europe/Amsterdam**
 - Keyboard Layout: **English (US)**
 
-![Time Zone Selection](./proxmox-tz.png)
+![Time Zone Selection](../images/proxmox-install/proxmox-tz.png)
 
 Then click **Next**.
 
@@ -78,7 +78,7 @@ Enter the root password and an email address for system alerts (e.g., backup not
 - Use a **strong password** for production setups.
 - The email will receive important alerts.
 
-![Admin Setup](./proxmox-admin.png)
+![Admin Setup](../images/proxmox-install/proxmox-admin.png)
 
 Click **Next**.
 
@@ -100,7 +100,7 @@ If DHCP does not provide values, fill in:
 - Gateway
 - DNS Server
 
-![Network Configuration](./proxmox-network.png)
+![Network Configuration](../images/proxmox-install/proxmox-network.png)
 
 Click **Next**.
 
@@ -110,7 +110,7 @@ Click **Next**.
 
 Review all information before installing.
 
-![Summary](./proxmox-summary.png)
+![Summary](../images/proxmox-install/proxmox-summary.png)
 
 If everything looks good, click **Install**.
 
@@ -120,7 +120,7 @@ If everything looks good, click **Install**.
 
 Proxmox will now install and process all the configuration.
 
-![Installing Proxmox](./proxmox-installing.png)
+![Installing Proxmox](../images/proxmox-install/proxmox-installing.png)
 
 Once the install finishes, the system will **automatically reboot**.
 
@@ -134,7 +134,7 @@ You can now access the server via URL in the browser: https://<your-ip>:8006
 
 ⚠️ Your browser might show a **"Potential Security Risk"** warning:
 
-![Security Warning](./proxmox-risky.png)
+![Security Warning](../images/proxmox-install/proxmox-risky.png)
 
 This is expected since the certificate is self-signed. Click **Advanced** and continue.
 
