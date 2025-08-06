@@ -18,7 +18,7 @@ It includes functionality like:
 
 ![Helper script overview](../images/post-install/postinstall-helperscript.png)
 
-> 🔎 I highly recommend browsing the list of available scripts on the site — it’s a valuable toolbox.
+> 🔎 I highly recommend browsing the list of available scripts on the site. It’s a valuable toolbox.
 
 ---
 
