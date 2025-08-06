@@ -18,37 +18,12 @@ It includes functionality like:
 
 ![Helper script overview](../images/post-install/postinstall-helperscript.png)
 
+In this documentation I am only going to use the **Proxmox Post Install** helper script:
+🔗 https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install 
+
 > 🔎 I highly recommend browsing the list of available scripts on the site. It’s a valuable toolbox.
 
 ---
-
-## 🚀 Using the Post-Install Script
-
-For now, I’m only using the **Proxmox Post Install** helper script:  
-🔗 https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install
-
-To execute the script, copy the following line into the shell of the node you want to configure:
-
-```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/post-pve-install.sh)"
-```
-
-![Shell with script input](../images/post-install/postinstall-shellscript.png)
-
----
-
-## 🖥️ How to Open the Shell
-
-1. In the Proxmox UI, click on the correct node in the sidebar (e.g., `server-a`)
-
-![Node selection](../images/post-install/postinstall-nodes.png) 
-
-2. Then choose `Shell` from the top-right menu or the left navigation panel
- 
-![Open shell](../images/post-install/postinstall-shell.png)
-
----
-
 ## 🧠 What the Script Does (Simplified Overview)
 
 Once the script runs, it brings up a terminal UI.  
@@ -65,6 +40,30 @@ Then, the script will:
 - ✅ Ask if you want to disable the subscription nag popup
 - ✅ Ask if you want to configure High Availability (HA)
 - ✅ Ask if you want to update the Proxmox system (`apt update && apt dist-upgrade`)
+
+---
+
+## 🖥️ How to Open the Shell
+
+1. In the Proxmox UI, click on the correct node in the sidebar (e.g., `server-a`)
+
+![Node selection](../images/post-install/postinstall-nodes.png) 
+
+2. Then choose `Shell` from the top-right menu or the left navigation panel
+ 
+![Open shell](../images/post-install/postinstall-shell.png)
+
+---
+
+## 🚀 Using the Post-Install Script
+
+To execute the script, copy the following line into the shell of the node you want to configure:
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/post-pve-install.sh)"
+```
+
+![Shell with script input](../images/post-install/postinstall-shellscript.png)
 
 ---
 
