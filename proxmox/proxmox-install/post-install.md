@@ -18,7 +18,7 @@ It includes functionality like:
 
 ![Helper script overview](../images/post-install/postinstall-helperscript.png)
 
-In this documentation I am only going to use the **Proxmox Post Install** helper script:
+In this documentation I am only going to use the **Proxmox Post Install** helper script.
 🔗 https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install 
 
 > 🔎 I highly recommend browsing the list of available scripts on the site. It’s a valuable toolbox.
