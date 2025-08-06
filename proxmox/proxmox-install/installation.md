@@ -130,7 +130,7 @@ Once the install finishes, the system will **automatically reboot**.
 
 ## Accessing the Web Interface
 
-You can now access the server via URL in the browser: https://`your-ip`:8006
+You can now access the server via URL in the browser `https://<IP>:8006`
 
 ⚠️ Your browser might show a **"Potential Security Risk"** warning:
 
