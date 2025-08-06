@@ -86,7 +86,7 @@ Click **Next**.
 
 ## Network Configuration
 
-Most values were already correct due to my switch configuration (ports 7 & 8 for Server - Trusted VLAN). See [ports](.../network/ports.md) and [vlan](.../network/vlan.md) for details.
+Most values were already correct due to my switch configuration (ports 7 & 8 for Server - Trusted VLAN). See [ports](portfolio/network/ports.md) and [vlan](.../network/vlan.md) for details.
 
 I only had to update the **Hostname**:
 
