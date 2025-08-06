@@ -23,24 +23,6 @@ In this documentation I am only going to use the [**Proxmox VE Post Install** he
 > 🔎 I highly recommend browsing the list of available scripts on the site. It’s a valuable toolbox.
 
 ---
-## 🧠 What the Script Does (Simplified Overview)
-
-Once the script runs, it brings up a terminal UI.  
-Use:
-- **SPACE** to select options
-- **ENTER** to confirm selections
-
-Then, the script will:
-- ✅ Correct APT sources to use standard Debian ones
-- ✅ Ask if you want to disable the enterprise repo (recommended if you don’t have a paid license)
-- ✅ Ask if you want to enable the no-subscription repo (recommended for free users)
-- ✅ Configure Ceph repos (optional; for storage clusters)
-- ✅ Ask if you want to enable the `pvetest` repo (not recommended for production and for less advanced Proxmox VE users)
-- ✅ Ask if you want to disable the subscription nag popup
-- ✅ Ask if you want to configure High Availability (HA)
-- ✅ Ask if you want to update the Proxmox system (`apt update && apt dist-upgrade`)
-
----
 
 ## 🖥️ How to Open the Shell
 
@@ -63,6 +45,25 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 ```
 
 ![Shell with script input](../images/post-install/postinstall-shellscript.png)
+
+---
+
+## 🧠 What the Script Does (Simplified Overview)
+
+Once the script runs, it brings up a terminal UI.  
+Use:
+- **SPACE** to select options
+- **ENTER** to confirm selections
+
+Then, the script will:
+- ✅ Correct APT sources to use standard Debian ones
+- ✅ Ask if you want to disable the enterprise repo (recommended if you don’t have a paid license)
+- ✅ Ask if you want to enable the no-subscription repo (recommended for free users)
+- ✅ Configure Ceph repos (optional; for storage clusters)
+- ✅ Ask if you want to enable the `pvetest` repo (not recommended for production and for less advanced Proxmox VE users)
+- ✅ Ask if you want to disable the subscription nag popup
+- ✅ Ask if you want to configure High Availability (HA)
+- ✅ Ask if you want to update the Proxmox system (`apt update && apt dist-upgrade`)
 
 ---
 
