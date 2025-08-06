@@ -148,7 +148,7 @@ Use the following credentials:
 - **Password**: *your configured root password*
 - **Realm**: `Linux PAM standard authentication`
 
-![Login to Proxmox](../images/proxmox/proxmox-url.png)
+![Login to Proxmox](./images/proxmox/proxmox-url.png)
 
 Once logged in, you should see the Proxmox dashboard. 🎉
 
