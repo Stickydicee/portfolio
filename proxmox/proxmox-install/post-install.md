@@ -95,6 +95,6 @@ You can now begin deploying LXC containers and creating virtual machines (VMs) a
 
 ---
 
-> Next steps after post-install configuration:
+> Next steps after post-install configuration.
 > ▶️ [Continue to creating LXC containers and VMs](lxc-vm.md)  
 > 💾 [Optional: Storage setup and explanation](storage.md)
