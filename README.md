@@ -4,7 +4,8 @@ Welcome to my cybersecurity portfolio. My name is **Nicky Jacobs**, born in **Cu
 
 I value making good use of my time and consider myself an open-minded person. I enjoy doing meaningful and fun things like going to festivals with friends, grabbing drinks on a terrace, visiting museums and art galleries, and exploring new activities. I also love traveling, visiting new countries and continents to discover what more the world has to offer.
 
-I love listening to music and I always enjoy a good film, series, or documentary. I like working out and I’m currently learning **Spanish**. Every day, I strive to become the best version of myself, mainly for myself, but also for the people who matter to me.
+I love listening to music and I always enjoy a good film, series, or documentary. I like working out and I’m currently learning **Spanish**. 
+Every day, I strive to become the best version of myself, mainly for myself, but also for the people who matter to me.
 
 ---
 
