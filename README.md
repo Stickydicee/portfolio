@@ -48,7 +48,7 @@ In the **Security Orchestration (SOC)** module, I learned about:
 
 ## Work Experience
 
-As of September 1, 2025, I will be working as a Security Analyst in a Security Operations Center (SOC)
+As of **September 1, 2025**, I will be working as a **Security Analyst** in a **Security Operations Center** (SOC).
 
 I’m still exploring which path I want to follow in cybersecurity. On one side, I really enjoy the **technical aspect** and see myself growing into a **Red Team Pentester** or **Threat Hunter**. On the other hand, I’m also developing a strong interest in **Threat Intelligence** and long-term would love to work in a strategic role like **CISO**.
 
