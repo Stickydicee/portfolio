@@ -113,5 +113,3 @@ Once started, you can view real-time stats and health of your container.
 ---
 
 ➡️ Proceed to next step: [Creating VM](vm.md)
-
-# Save the markdown 
