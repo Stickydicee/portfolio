@@ -102,9 +102,10 @@ Once confirmed, the container will be created and you will see the status in the
 Right-click on the created container (CT 102) and click **Start**, then open **Console**.
 
 ![Start Container](../images/lxc-vm/lxcvm-startlxc.png)
-![Console Access](../images/lxc-vm/lxcvm-shelllxc.png)
 
 Login with your root credentials to begin configuring the container.
+
+![Console Access](../images/lxc-vm/lxcvm-shelllxc.png)
 
 ---
 
