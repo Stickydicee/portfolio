@@ -8,7 +8,7 @@ After the post-installation process and reboot, you are ready to start creating 
 
 To create an LXC container, right-click on the node and select **Create CT**.
 
-![Right-click node](lxcvm-rightclicknode.png)
+![Right-click node](../images/lxc-vm/lxcvm-rightclicknode.png)
 
 ---
 
@@ -20,7 +20,7 @@ Set the basic options:
 - Hostname: `lxc-example`
 - Password: set a strong password
 
-![General Tab](lxcvm-createlxc.png)
+![General Tab](../images/lxc-vm/lxcvm-createlxc.png)
 
 ---
 
@@ -28,7 +28,7 @@ Set the basic options:
 
 Select your desired template. In this example, we are using Debian 12.
 
-![Template Tab](lxcvm-templatelxc.png)
+![Template Tab](../images/lxc-vm/lxcvm-templatelxc.png)
 
 ---
 
