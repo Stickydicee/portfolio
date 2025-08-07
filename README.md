@@ -76,22 +76,22 @@ This section will grow as I continue building and testing new components.
 
 ➡️ [Currently being written](./proxmox)
 
-## 🐳 Docker  
+## 🐳 Docker *(Coming Soon)*
 Docker running inside an LXC container, managed with Docker Compose and Portainer.  
 Used for deploying lightweight services across my homelab environment.  
 ➡️ [Documentation coming soon](./docker)
 
-## 🏠 Home Assistant on Raspberry Pi  
+## 🏠 Home Assistant on Raspberry Pi *(Coming Soon)*
 Smart home automation using Home Assistant on a Raspberry Pi 5, with Zigbee 3.0 USB dongle for wireless device integration.  
 Integrated with UniFi network, motion sensors, lights, and automation rules.  
 ➡️ [Documentation coming soon](./home-assistant)
 
-## 🐉 Kali Linux *(Virtualized)*  
+## 🐉 Kali Linux *(Coming Soon)*
 Running Kali Linux in Oracle VirtualBox for offensive security testing and tool experimentation.  
 Used for network scanning, vulnerability assessment, and CTF practice.  
 ➡️ [Documentation coming soon](./kali)
 
-## ☠️ Ethical Hacking Tools  
+## ☠️ Ethical Hacking Tools *(Coming Soon)*
 Experimenting with various hardware and software tools, including:  
 - WiFi Pineapple Mark VII Tactical  
 - Flipper Zero  
