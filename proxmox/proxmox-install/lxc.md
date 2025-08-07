@@ -36,7 +36,7 @@ Select your desired template. In this example, we are using Debian 12.
 
 Choose the storage and disk size for the root filesystem.
 
-![Disks Tab](lxcvm-diskslxc.png)
+![Disks Tab](../images/lxc-vm/lxcvm-diskslxc.png)
 
 ---
 
@@ -44,7 +44,7 @@ Choose the storage and disk size for the root filesystem.
 
 Assign the number of cores for the container.
 
-![CPU Tab](lxcvm-cpulxc.png)
+![CPU Tab](../images/lxc-vm/lxcvm-cpulxc.png)
 
 ---
 
@@ -52,7 +52,7 @@ Assign the number of cores for the container.
 
 Configure the memory and swap allocation.
 
-![Memory Tab](lxcvm-memory.png)
+![Memory Tab](../images/lxc-vm/lxcvm-memory.png)
 
 ---
 
@@ -65,7 +65,7 @@ Example configuration:
 - Gateway: `196.120.54.1`
 - Bridge: `vmbr0`
 
-![Network Tab](lxcvm-network.png)
+![Network Tab](../images/lxc-vm/lxcvm-network.png)
 
 ---
 
@@ -73,7 +73,7 @@ Example configuration:
 
 Leave default or modify if needed.
 
-![DNS Tab](lxcvm-dns.png)
+![DNS Tab](../images/lxc-vm/lxcvm-dns.png)
 
 ---
 
@@ -81,7 +81,7 @@ Leave default or modify if needed.
 
 Review and confirm all configuration values before creating the container.
 
-![Confirm Tab](lxcvm-confirmlxc.png)
+![Confirm Tab](../images/lxc-vm/lxcvm-confirmlxc.png)
 
 ---
 
@@ -89,7 +89,7 @@ Review and confirm all configuration values before creating the container.
 
 Once confirmed, the container will be created and you will see the status in the task viewer.
 
-![Creating Container](lxcvm-creatinglxc.png)
+![Creating Container](../images/lxc-vm/lxcvm-creatinglxc.png)
 
 ---
 
@@ -97,8 +97,8 @@ Once confirmed, the container will be created and you will see the status in the
 
 Right-click on the created container (CT 102) and click **Start**, then open **Console**.
 
-![Start Container](lxcvm-startlxc.png)
-![Console Access](lxcvm-shelllxc.png)
+![Start Container](../images/lxc-vm/lxcvm-startlxc.png)
+![Console Access](../images/lxc-vm/lxcvm-shelllxc.png)
 
 Login with your root credentials to begin configuring the container.
 
@@ -108,7 +108,7 @@ Login with your root credentials to begin configuring the container.
 
 Once started, you can view real-time stats and health of your container.
 
-![Summary View](lxcvm-gotoshell.png)
+![Summary View](../images/lxc-vm/lxcvm-gotoshell.png)
 
 ---
 
