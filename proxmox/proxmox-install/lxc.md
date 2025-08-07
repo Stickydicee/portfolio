@@ -52,7 +52,7 @@ Assign the number of cores for the container.
 
 Configure the memory and swap allocation.
 
-![Memory Tab](../images/lxc-vm/lxcvm-memory.png)
+![Memory Tab](../images/lxc-vm/lxcvm-memorylxc.png)
 
 ---
 
@@ -65,7 +65,7 @@ Example configuration:
 - Gateway: `196.120.54.1`
 - Bridge: `vmbr0`
 
-![Network Tab](../images/lxc-vm/lxcvm-network.png)
+![Network Tab](../images/lxc-vm/lxcvm-networklxc.png)
 
 ---
 
@@ -73,7 +73,7 @@ Example configuration:
 
 Leave default or modify if needed.
 
-![DNS Tab](../images/lxc-vm/lxcvm-dns.png)
+![DNS Tab](../images/lxc-vm/lxcvm-dnslxc.png)
 
 ---
 
@@ -108,7 +108,7 @@ Login with your root credentials to begin configuring the container.
 
 Once started, you can view real-time stats and health of your container.
 
-![Summary View](../images/lxc-vm/lxcvm-gotoshell.png)
+![Summary View](../images/lxc-vm/lxcvm-gotoshelllxc.png)
 
 ---
 
