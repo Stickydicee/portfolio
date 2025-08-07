@@ -2,6 +2,10 @@
 
 After the post-installation process and reboot, you are ready to start creating LXC containers and virtual machines.
 
+To simplify the setup process, I primarily use helper scripts, which are also referenced in the `post-install.md` documentation.  
+Specifically, I use the advanced installation method with helper scripts to apply my own configuration.  
+The same configuration steps performed by those scripts are reflected throughout this documentation.
+
 ---
 
 ## Creating an LXC Container
