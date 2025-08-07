@@ -13,7 +13,8 @@ This setup serves as the foundation for future virtual machines (VMs), LXC conta
 - [`Installation`](./proxmox-install.proxmox-installation.md) – Installation walkthrough for Proxmox on each machine
 - [`Post Installation`](./proxmox-install/post-install.md) – Essential steps after installation (updates, repositories, etc.)
 - [`Storage`](./proxmox-install/storage.md) – Storage layout, disk configuration and ZFS considerations
-- [`LXC & VM's`](./proxmox-install/lxc-vm.md) – Creating LXC and VM's via Proxmox VE
+- [`LXC`](./proxmox-install/lxc.md) – Creating LXC containers via Proxmox VE
+- [`VM`](./proxmox-install/vm.md) – Creating VM's via Proxmox VE
 - [`Backup`](./proxmox-install/backup.md) – Automatic backup setup and retention strategy
 
 ---
