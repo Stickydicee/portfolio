@@ -91,7 +91,7 @@ Running Kali Linux in Oracle VirtualBox for offensive security testing and tool 
 Used for network scanning, vulnerability assessment, and CTF practice.  
 ➡️ [Documentation coming soon](./kali)
 
-## 🧰 Ethical Hacking Tools  
+## ☠️ Ethical Hacking Tools  
 Experimenting with various hardware and software tools, including:  
 - WiFi Pineapple Mark VII Tactical  
 - Flipper Zero  
