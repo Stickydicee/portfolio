@@ -117,7 +117,7 @@ When installation is finished, Kali reboots and shows a login screen.
 
 Login with:
 - **Username**: `kali` _(or the user you created)_
-- **Password**: The password you set during install
+- **Password**: `kali` _(or the password you created)_
 
 Now you should arrive at the Kali desktop:
 
