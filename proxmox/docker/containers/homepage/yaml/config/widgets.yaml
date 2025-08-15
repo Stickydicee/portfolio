@@ -1,0 +1,30 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/info-widgets/
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- search:
+    provider: google
+    target: _blank
+
+# 1:37 PM
+- datetime:
+    text_size: m
+    format:
+      timeStyle: short
+      hour12: true
+
+- openmeteo:
+    label: Amersfoort # optional
+    text_size: m
+    latitude: 52.1561
+    longitude: 5.3878
+    timezone: Europe/Amsterdam # optional
+    units: metric # or imperial
+    cache: 5 # Time in minutes to cache API responses, to stay within limits
+    format: # optional, Intl.NumberFormat options
+      maximumFractionDigits: 1

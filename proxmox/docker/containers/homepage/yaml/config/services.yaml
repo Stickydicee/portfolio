@@ -1,0 +1,76 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Server Management:
+    - Proxmox Server - A:
+        href: https://10.120.88.170:8006/#v1:0:=node%2Fserver-a:4:=certificates:::::=consolejs
+        description: Primary node for VM's and containers
+        icon: proxmox
+        widget:
+          type: proxmox
+          url: https://10.120.88.170:8006
+          username: api@pam!homepage
+          password: 191115cd-142e-4783-95c0-61b3e9653406
+          node: server-a # optional
+    - Proxmox Server - B:
+        href: https://10.120.88.170:8006/#v1:0:=node%2Fserver-b:4:=certificates:::::=consolejs
+        description: Secondary node for backup and storage
+        icon: proxmox
+        widget:
+          type: proxmox
+          url: https://10.120.88.170:8006
+          username: api@pam!homepage
+          password: 191115cd-142e-4783-95c0-61b3e9653406
+          node: server-b # optional
+    - Portainer:
+        href: https://10.120.88.100:9443/#!/3/docker/dashboard
+        description: UI for container management
+        icon: portainer
+        widget:
+          type: portainer
+          url: https://10.120.88.100:9443
+          env: 3
+          kubernetes: false # optional, defaults to false
+          key: ptr_yivaXcLhG3YCYlvOkd4h/vmuyczMTUDMl2P+PTH+J1Q=
+
+- Network:
+    - Unifi OS:
+        href: http://10.120.1.1
+        description: Centralized Network Management
+        icon: unifi
+        widget:
+          type: unifi
+          url: https://10.120.1.1
+          #site: Site Name # optional
+          #username: user
+          #password: pass
+          key: I8mqQk_9InooR7bP-p8lBAtBlBp-EIiJ # required if using API key instead of username/password
+    - AdGuard Home:
+        href: http://10.120.88.101
+        description: Ad blocking and DNS server
+        icon: adguard-home
+        widget:
+          type: adguard
+          url: http://10.120.88.101:80
+          username: nicky.jacobs
+          password: ?DGG$K2hVc}A=R2
+
+- Smart Home Management:
+    - Home Assistant:
+        href: http://10.120.88.89:8123
+        description: Smart Home Automation HUB
+        icon: home-assistant
+        widget:
+          type: homeassistant
+          url: http://10.120.88.89:8123
+          key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI0OTBkYTQ5ZjY0YTU0MzY2ODI2Nzk3YTliMzlkNWZjOCIsImlhdCI6MTc1MzY5NjY5MywiZXhwIjoyMDY5MDU2NjkzfQ.bquGzhNBNqrlWHoYJJ5NicPYGnw0OmK04HyydHIKY3Y
+          custom:
+            - state: sensor.total_power
+            - state: sensor.total_energy_today
+              label: energy today
+            - template: "{{ states.switch|selectattr('state','equalto','on')|list|length }}"
+              label: switches on
+            - state: weather.forecast_home
+              label: wind speed
+              value: "{attributes.wind_speed} {attributes.wind_speed_unit}"

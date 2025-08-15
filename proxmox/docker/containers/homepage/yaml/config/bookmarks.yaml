@@ -1,0 +1,63 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/bookmarks
+
+- Social:
+    - Reddit:
+        - abbr: RE
+          href: https://reddit.com/
+    - Facebook:
+        - abbr: FB
+          href: https://facebook.com/
+    - X:
+        - abbr: X
+          href: https://x.com/
+    - GitHub:
+        - abbr: GH
+          href: https://github.com/
+    - LinkedIn:
+        - abbr: LI
+          href: https://linkedin.com/
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/
+
+- Tooling:
+    - Have I Been Pwned:
+        - abbr: HIBP
+          href: https://haveibeenpwned.com/
+    - BitDefender ThreatMap:
+        - abbr: BD
+          href: https://threatmap.bitdefender.com/
+    - Kaspersky CyberMap:
+        - abbr: KC
+          href: https://cybermap.kaspersky.com/
+    - URL Scan:
+        - abbr: US
+          href: https://urlscan.io/
+    - Shodan:
+        - abbr: SH
+          href: https://www.shodan.io/
+    - VirusTotal:
+        - abbr: VT
+          href: https://www.virustotal.com
+
+- OSINT:
+    - MITRE ATT&CK:
+        - abbr: MT
+          href: https://attack.mitre.org/
+    - OSINT Framework:
+        - abbr: OF
+          href: https://osintframework.com/
+    - Bellingcat Tools:
+        - abbr: BT
+          href: https://bellingcat.com/resources/how-tos/
+    - Intelligence X:
+        - abbr: IX
+          href: https://intelx.io/
+    - CIRCL:
+        - abbr: CI
+          href: https://circl.lu/
+    - Malpedia:
+        - abbr: MP
+          href: https://malpedia.caad.fkie.fraunhofer.de/
