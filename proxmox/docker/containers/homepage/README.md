@@ -67,16 +67,17 @@ This makes Homepage a one-stop interface for managing, launching, and observing 
 
 ---
 
-## 🧾 My Personal Configuration Files
+## 📁 What's in This Folder
 
-These files hold my custom layout and service settings:
+These files hold my compose YAML file, custom layout and service settings:
 
-> 📁 `config/`
->
-> - [`bookmarks.yaml`](./config/bookmarks.yaml) – quick access to OSINT tools, docs, and personal references  
-> - [`services.yaml`](./config/services.yaml) – all running services in my homelab, categorized by stack or function  
-> - [`settings.yaml`](./config/settings.yaml) – UI behavior, layout and theme  
-> - [`widgets.yaml`](./config/widgets.yaml) – system info, network and monitoring widgets
+> 📁 `yaml/`
+> - [`compose.yaml`](./yaml/compose.yaml) - used to deploy Homepage via Portainer as a Docker stack
+> 📁 `yaml/config/`
+> - [`bookmarks.yaml`](./yaml/config/bookmarks.yaml) – quick access to OSINT tools, docs, and personal references  
+> - [`services.yaml`](./yaml/config/services.yaml) – all running services in my homelab, categorized by stack or function  
+> - [`settings.yaml`](./yaml/config/settings.yaml) – UI behavior, layout and theme  
+> - [`widgets.yaml`](./yaml/config/widgets.yaml) – system info, network and monitoring widgets
 
 These files are actively updated to reflect the current state of my homelab.
 
