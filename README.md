@@ -76,11 +76,6 @@ This section will grow as I continue building and testing new components.
 
 ➡️ [Currently being written](./proxmox)
 
-## 🐳 Docker *(Coming Soon)*
-Docker running inside an LXC container, managed with Docker Compose and Portainer.  
-Used for deploying lightweight services across my homelab environment.  
-➡️ [Documentation coming soon](./docker)
-
 ## 🏠 Home Assistant on Raspberry Pi *(Coming Soon)*
 Smart home automation using Home Assistant on a Raspberry Pi 5, with Zigbee 3.0 USB dongle for wireless device integration.  
 Integrated with UniFi network, motion sensors, lights, and automation rules.  
