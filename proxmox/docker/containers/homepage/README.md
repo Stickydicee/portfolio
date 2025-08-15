@@ -71,8 +71,8 @@ This makes Homepage a one-stop interface for managing, launching, and observing 
 
 | File | Description |
 |------|-------------|
-| `compose.yaml` | Full docker-compose stack for Homepage |
 | `install-homepage.md` | Instructions to deploy Homepage in Portainer |
+| `compose.yaml` | Full docker-compose stack for Homepage |
 | `bookmarks.yaml` | Custom bookmarks (e.g. OSINT tools, docs) |
 
 ---
