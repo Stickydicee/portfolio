@@ -52,7 +52,7 @@ As of **September 1, 2025**, I will be working as a **Security Analyst** in a **
 
 I’m still exploring which path I want to follow in cybersecurity. On one side, I really enjoy the **technical aspect** and see myself growing into a **Red Team Pentester** or **Threat Hunter**. On the other hand, I’m also developing a strong interest in **Threat Intelligence** and long-term would love to work in a strategic role like **CISO**.
 
-I’m still at the beginning of my career, and I’m okay with that. I’m here to learn, grow, and share my journey—step by step.
+I’m still at the beginning of my career, and I’m okay with that. I’m here to learn, grow, and share my journey, step by step.
 
 ---
 
