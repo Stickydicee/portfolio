@@ -12,4 +12,3 @@ services:
       - /home/homepage:/app/config # Make sure your local config directory exists
       - /home/homepage/images:/app/public/images # optional, for docker integrations
     restart: unless-stopped
-
