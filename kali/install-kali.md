@@ -51,7 +51,7 @@ To check if your system supports 64-bit:
 
 ### 4. Configure Virtual Hardware
 
-![Hardware](./assets/kali-install-1.png)
+![Hardware](./assets/images/install-kali/kali-install-1.png)
 
 - **RAM**: 8192 MB  
   _(25% of host RAM, for smooth usage)_
@@ -65,7 +65,7 @@ More cores = better performance when using tools like Metasploit, Burp Suite, et
 
 ### 5. Create Virtual Hard Disk
 
-![Disk](./assets/kali-install-2.png)
+![Disk](./assets/images/install-kali/kali-install-2.png)
 
 - **Location**: `C:\Users\nicky\VirtualBox VMs\Kali\Kali.vdi`  
 - **Size**: 80 GB  
@@ -120,7 +120,7 @@ Here’s what the graphical installer walks you through:
 
 When installation is finished, Kali reboots and shows a login screen.
 
-![Login Screen](./assets/kali-welcome.png)
+![Login Screen](./assets/images/install-kali/kali-welcome.png)
 
 Login with:
 - **Username**: `kali` _(or the user you created)_
@@ -128,7 +128,7 @@ Login with:
 
 Now you should arrive at the Kali desktop:
 
-![Kali Desktop](./assets/kali-home.png)
+![Kali Desktop](./assets/images/install-kali/kali-home.png)
 
 You’re now ready to begin your journey in the exciting world of hacking.
 
