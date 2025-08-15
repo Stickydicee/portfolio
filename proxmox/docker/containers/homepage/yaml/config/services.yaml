@@ -4,68 +4,68 @@
 
 - Server Management:
     - Proxmox Server - A:
-        href: https://10.120.88.170:8006/#v1:0:=node%2Fserver-a:4:=certificates:::::=consolejs
+        href: https://<CHANGE>:8006/#v1:0:=node%2Fserver-a:4:=certificates:::::=consolejs
         description: Primary node for VM's and containers
         icon: proxmox
         widget:
           type: proxmox
-          url: https://10.120.88.170:8006
-          username: api@pam!homepage
-          password: 191115cd-142e-4783-95c0-61b3e9653406
-          node: server-a # optional
+          url: https://<CHANGE>:8006
+          username: api@pam!<CHANGE>
+          password: <CHANGE>
+          node: <CHANGE> # optional
     - Proxmox Server - B:
-        href: https://10.120.88.170:8006/#v1:0:=node%2Fserver-b:4:=certificates:::::=consolejs
+        href: https://<CHANGE>:8006/#v1:0:=node%2Fserver-b:4:=certificates:::::=consolejs
         description: Secondary node for backup and storage
         icon: proxmox
         widget:
           type: proxmox
-          url: https://10.120.88.170:8006
-          username: api@pam!homepage
-          password: 191115cd-142e-4783-95c0-61b3e9653406
-          node: server-b # optional
+          url: https://<CHANGE>:8006
+          username: api@pam!<CHANGE>
+          password: <CHANGE>
+          node: <CHANGE> # optional
     - Portainer:
-        href: https://10.120.88.100:9443/#!/3/docker/dashboard
+        href: https://1<CHANGE>:9443/#!/3/docker/dashboard
         description: UI for container management
         icon: portainer
         widget:
           type: portainer
-          url: https://10.120.88.100:9443
-          env: 3
+          url: https://<CHANGE>:9443
+          env: <CHANGE> # env is in the URL
           kubernetes: false # optional, defaults to false
-          key: ptr_yivaXcLhG3YCYlvOkd4h/vmuyczMTUDMl2P+PTH+J1Q=
+          key: <CHANGE>
 
 - Network:
     - Unifi OS:
-        href: http://10.120.1.1
+        href: http://<CHANGE>
         description: Centralized Network Management
         icon: unifi
         widget:
           type: unifi
-          url: https://10.120.1.1
+          url: https://<CHANGE>
           #site: Site Name # optional
           #username: user
           #password: pass
-          key: I8mqQk_9InooR7bP-p8lBAtBlBp-EIiJ # required if using API key instead of username/password
+          key: <CHANGE> # required if using API key instead of username/password
     - AdGuard Home:
-        href: http://10.120.88.101
+        href: http://<CHANGE>
         description: Ad blocking and DNS server
         icon: adguard-home
         widget:
           type: adguard
-          url: http://10.120.88.101:80
-          username: nicky.jacobs
-          password: ?DGG$K2hVc}A=R2
+          url: http://<CHANGE>:80
+          username: <CHANGE>
+          password: <CHANGE>
 
 - Smart Home Management:
     - Home Assistant:
-        href: http://10.120.88.89:8123
+        href: http://<CHANGE>:8123 # I use port 8123
         description: Smart Home Automation HUB
         icon: home-assistant
         widget:
           type: homeassistant
-          url: http://10.120.88.89:8123
-          key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI0OTBkYTQ5ZjY0YTU0MzY2ODI2Nzk3YTliMzlkNWZjOCIsImlhdCI6MTc1MzY5NjY5MywiZXhwIjoyMDY5MDU2NjkzfQ.bquGzhNBNqrlWHoYJJ5NicPYGnw0OmK04HyydHIKY3Y
-          custom:
+          url: http://<CHANGE>:8123
+          key: <CHANGE>
+          custom: 
             - state: sensor.total_power
             - state: sensor.total_energy_today
               label: energy today
