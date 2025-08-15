@@ -1,5 +1,4 @@
 # 🧪 Kali Linux VM Setup & Installation
-=====================================
 
 This folder contains a full guide on how I set up a Kali Linux virtual machine using VirtualBox on a Windows host.  
 This project marks the start of my offensive security training lab.
