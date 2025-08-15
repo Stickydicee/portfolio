@@ -3,7 +3,7 @@ services:
     image: ghcr.io/gethomepage/homepage:latest
     container_name: homepage
     environment:
-      HOMEPAGE_ALLOWED_HOSTS: "*" # required, may need port. See gethomepage.dev/installation/#homepage_allowed_hosts
+      HOMEPAGE_ALLOWED_HOSTS: "*" # required, may need port. See gethomepage.dev/installation/#homepage_allowed_hosts # I used "*" to get it up and running. CHANGE this when you use it in production.
       PUID: 1000 # optional, your user id
       PGID: 1000 # optional, your group id
     ports:
@@ -11,4 +11,4 @@ services:
     volumes:
       - /home/homepage:/app/config # Make sure your local config directory exists
       - /home/homepage/images:/app/public/images # optional, for docker integrations
-    restart: unless-stopped
+restart: unless-stopped
