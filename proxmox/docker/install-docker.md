@@ -13,7 +13,7 @@ To simplify the installation process, I used a community-maintained helper scrip
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
 ```
 
-> ⚠️ **Important:**  
+> ⚠️ **Important**  
 > Before running scripts from the internet, **always check and understand what the script does**.  
 > I personally reviewed the script, confirmed its safety, and trust its implementation for my own lab setup.
 
