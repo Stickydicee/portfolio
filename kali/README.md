@@ -34,4 +34,3 @@ The Kali VM is configured with:
 - 💾 80 GB VDI disk  
 - 📀 Graphical Installer  
 - 🧬 Debian 64-bit basel  
-- Host: Windows 11
