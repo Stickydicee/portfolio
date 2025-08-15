@@ -41,7 +41,7 @@ To check if your system supports 64-bit:
 
 ### 3. Create the VM (Expert Mode)
 
-![Create VM](./assets/kali-install-0.png)
+![Create VM](./assets/images/install-kali/kali-install-0.png)
 
 - **VM Name**: Kali  
 - **ISO Image**: Select the `.iso` from Kali  
