@@ -15,7 +15,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 > ⚠️ **Important**  
 > Before running scripts from the internet, **always check and understand what the script does**.  
-> I personally reviewed the script, confirmed its safety, and trust its implementation for my own lab setup.
+> I personally reviewed the script, confirmed its safety and trust its implementation for my own lab setup.
 
 This script walks you through an **advanced setup** where you're asked whether to install Docker Compose and Portainer.
 
