@@ -86,10 +86,10 @@ Smart home automation using Home Assistant on a Raspberry Pi 5, with Zigbee 3.0 
 Integrated with UniFi network, motion sensors, lights, and automation rules.  
 ➡️ [Documentation coming soon](./home-assistant)
 
-## 🐉 Kali Linux *(Coming Soon)*
+## 🐉 Kali Linux *(In Progress)*
 Running Kali Linux in Oracle VirtualBox for offensive security testing and tool experimentation.  
 Used for network scanning, vulnerability assessment, and CTF practice.  
-➡️ [Documentation coming soon](./kali)
+➡️ [Currently being written](./kali)
 
 ## ☠️ Ethical Hacking Tools *(Coming Soon)*
 Experimenting with various hardware and software tools, including:  
