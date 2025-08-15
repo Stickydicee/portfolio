@@ -5,13 +5,6 @@ The setup is designed for learning, practicing ethical hacking, and exploring cy
 
 ---
 
-## 🧩 Structure
-
-- **[Kali Install](#kali-install)** – Full guide from downloading Kali and VirtualBox to the first successful login screen  
-- _More steps coming soon…_ (e.g., guest additions, networking, tools, snapshots)
-
----
-
 ## 📥 Kali Install
 
 ### 1. Download Kali Linux
