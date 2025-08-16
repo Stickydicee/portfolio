@@ -10,16 +10,16 @@ This file explains how I installed [Homepage](https://gethomepage.dev/) as a Doc
    This is where all your Docker containers and stacks are running.
 
 2. **Navigate to** `Stacks`  
-   ![Stacks](../../assets/images/homepage-portainer-stacks.png)
+   ![Stacks](images/install-homepage/homepage-portainer-stacks.png)
 
 3. **Click on** `+ Add Stack`  
-   ![Add Stack](../../assets/images/homepage-portainer-createstack.png)
+   ![Add Stack](images/install-homepage/homepage-portainer-createstack.png)
 
 4. **Configure the stack:**
 
    - Choose a recognizable name (I used `homepage`)
    - Select **Web editor** as your build method  
-     ![Web Editor](../../assets/images/homepage-portainer-compose.png)
+     ![Web Editor](images/install-homepage/homepage-portainer-compose.png)
 
 5. **Paste the `compose.yaml` content** into the editor.  
    This YAML defines how Homepage should run (ports, volumes, restart policy, etc.)
