@@ -26,7 +26,7 @@ Homepage is the perfect fit for my homelab setup because:
 I deploy Homepage as a **Docker stack** inside **Portainer**, using a `docker-compose.yaml` file.
 
 You'll find:
-- My full stack configuration in [`compose.yaml`](./yaml/compose.yaml)
+- My full stack configuration in [`docker-compose.yaml`](./yaml/docker-compose.yaml)
 - Guide on how to deploy the stack in Portainer in [`install-homepage`](./install-homepage.md)
 
 ---
