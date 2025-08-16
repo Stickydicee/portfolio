@@ -25,7 +25,7 @@ This file explains how I installed [Homepage](https://gethomepage.dev/) as a Doc
    This YAML defines how Homepage should run (ports, volumes, restart policy, etc.)
 
 6. **Scroll to the bottom and click** `Deploy the stack`  
-   ![Deploy Stack](../../assets/images/homepage-portainer-deploystack.png)
+   ![Deploy Stack](images/install-homepage/homepage-portainer-deploystack.png)
 
 ---
 
