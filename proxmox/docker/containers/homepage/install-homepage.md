@@ -79,7 +79,7 @@ Which results in:
    - Choose a recognizable name (I used `homepage`)
    - Select **Web editor** as your build method 
 
-5. **Paste the [`compose.yaml`](./yaml/compose.yaml) content** into the editor.  
+5. **Paste the [`docker-compose.yaml`](./yaml/docker-compose.yaml) content** into the editor.  
    This YAML defines how Homepage should run (ports, volumes, restart policy, etc.)
 
    ![Web Editor](images/install-homepage/homepage-portainer-compose.png)
