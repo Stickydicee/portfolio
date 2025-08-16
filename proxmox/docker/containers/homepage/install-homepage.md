@@ -4,6 +4,63 @@ This file explains how I installed [Homepage](https://gethomepage.dev/) as a Doc
 
 ---
 
+## 📁 Preparation Before Installation
+
+Before deploying the Homepage stack, I created the necessary folders inside my LXC container to properly mount configuration and image paths via Docker volumes.
+
+These directories are required so that Homepage stores its config files in a known location and optionally allows you to use custom background images.
+
+---
+
+## 🧾 Terminal Steps
+
+1. Open the shell of your LXC container via **Proxmox**.
+2. Navigate to the home directory:
+
+```bash
+cd /home
+```
+
+3. Create a central folder for Homepage:
+
+```bash
+mkdir homepage
+```
+
+This creates the path:
+
+```text
+/home/homepage
+```
+
+This directory will be used to store configuration files like:
+- bookmarks.yaml
+- widgets.yaml
+- services.yaml
+- settings.yaml
+
+4. (Optional) Create an `images` folder inside the `homepage` folder to store custom dashboard backgrounds:
+
+```bash
+cd /home/homepage
+mkdir images
+```
+
+Which results in:
+
+```text
+/home/homepage/images
+```
+
+![Homepage directory contents](images/install-homepage/homepage-portainer-volume.png)
+
+>💡 Note
+>
+> Make sure that these exact volume paths are used in your `docker-compose.yaml` under the `volumes:` section.  
+> Without them, Homepage won’t store or persist its configuration properly.
+
+---
+
 ## 🔧 Steps to Install Homepage with Portainer
 
 1. **Go to your Portainer environment**  
