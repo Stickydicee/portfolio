@@ -72,7 +72,7 @@ This makes Homepage a one-stop interface for managing, launching, and observing 
 These files hold my compose YAML file, custom layout and service settings:
 
 > 📁 `yaml/`
-> - [`compose.yaml`](./yaml/compose.yaml) - used to deploy Homepage via Portainer as a Docker stack
+> - [`docker-compose.yaml`](./yaml/docker-compose.yaml) - used to deploy Homepage via Portainer as a Docker stack
 >
 > 📁 `yaml/config/`
 > - [`bookmarks.yaml`](./yaml/config/bookmarks.yaml) – quick access to OSINT tools, docs, and personal references  
