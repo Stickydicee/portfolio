@@ -74,7 +74,7 @@ Configured with Slack webhook alerts, authbind for port 22 access, fake shell en
 I'm currently documenting my Proxmox cluster which includes 2 nodes (Mini PCs), containerized services (LXC, Docker), Wazuh SIEM, Grafana, backups, and more.  
 This section will grow as I continue building and testing new components.
 
-➡️ [Currently being written](./proxmox)
+➡️ [View documentation](./proxmox)
 
 ## 🏠 Home Assistant on Raspberry Pi *(Coming Soon)*
 Smart home automation using Home Assistant on a Raspberry Pi 5, with Zigbee 3.0 USB dongle for wireless device integration.  
